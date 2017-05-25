@@ -9,11 +9,11 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.misc;
+package com.viper.ota.misc;
 
 public class Constants {
     // Download related
-    public static final String UPDATES_FOLDER = "PureNexusOTA";
+    public static final String UPDATES_FOLDER = "ViperOTA";
     public static final String DOWNLOAD_ID = "download_id";
     public static final String DOWNLOAD_NAME = "download_name";
     public static final String DOWNLOAD_TMP_EXT = ".tmp";
@@ -36,8 +36,8 @@ public class Constants {
     public static final int UPDATE_FREQ_MONTHLY = 2419200;
 
     // Build vars
-    public static final String CURRENT_DEVICE_NAME = "ro.product.device";
-    public static final String CURRENT_VERSION = "ro.pure.version";
+    public static final String CURRENT_DEVICE_NAME = "ro.viper.device";
+    public static final String CURRENT_VERSION = "ro.viper.version";
 
     // Expressions
     public static final String FILENAME_DATE_FORMAT = "yyyyMMdd";

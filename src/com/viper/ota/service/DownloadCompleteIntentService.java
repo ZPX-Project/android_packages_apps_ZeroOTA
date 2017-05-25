@@ -8,7 +8,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.service;
+package com.viper.ota.service;
 
 import android.app.DownloadManager;
 import android.app.IntentService;
@@ -18,13 +18,13 @@ import android.database.Cursor;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.UpdatesActivity;
-import com.purenexus.ota.UpdateApplication;
-import com.purenexus.ota.UpdatesSettings;
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.receiver.DownloadNotifier;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.R;
+import com.viper.ota.UpdatesActivity;
+import com.viper.ota.UpdateApplication;
+import com.viper.ota.UpdatesSettings;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.receiver.DownloadNotifier;
+import com.viper.ota.utils.Utils;
 
 import java.io.File;
 import java.io.FileInputStream;

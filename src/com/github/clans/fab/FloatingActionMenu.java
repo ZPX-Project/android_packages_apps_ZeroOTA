@@ -28,7 +28,7 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.purenexus.ota.R;
+import com.viper.ota.R;
 
 public class FloatingActionMenu extends ViewGroup {
 

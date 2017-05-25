@@ -1,4 +1,4 @@
-# PureNexus OTA
+# Viper OTA
 ### Based on Lineage/CyanogenMod ota app
 
 ## How to use?
@@ -6,7 +6,7 @@
 ```
 # Essential OTA Config
 PRODUCT_PACKAGES += \
-    PureOTA
+    ViperOTA
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ota.build.date=$(shell date +%Y%m%d)

@@ -8,7 +8,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.service;
+package com.viper.ota.service;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.UpdateApplication;
-import com.purenexus.ota.UpdatesActivity;
-import com.purenexus.ota.requests.UpdatesJsonObjectRequest;
-import com.purenexus.ota.UpdatesSettings;
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.misc.State;
-import com.purenexus.ota.misc.UpdateInfo;
-import com.purenexus.ota.receiver.DownloadReceiver;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.R;
+import com.viper.ota.UpdateApplication;
+import com.viper.ota.UpdatesActivity;
+import com.viper.ota.requests.UpdatesJsonObjectRequest;
+import com.viper.ota.UpdatesSettings;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.misc.State;
+import com.viper.ota.misc.UpdateInfo;
+import com.viper.ota.receiver.DownloadReceiver;
+import com.viper.ota.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -59,11 +59,11 @@ public class UpdateCheckService extends IntentService
     private static final String TAG = "UpdateCheckService";
 
     // request actions
-    public static final String ACTION_CHECK = "com.purenexus.ota.action.CHECK";
-    public static final String ACTION_CANCEL_CHECK = "com.purenexus.ota.action.CANCEL_CHECK";
+    public static final String ACTION_CHECK = "com.viper.ota.action.CHECK";
+    public static final String ACTION_CANCEL_CHECK = "com.viper.ota.action.CANCEL_CHECK";
 
     // broadcast actions
-    public static final String ACTION_CHECK_FINISHED = "com.purenexus.ota.action.UPDATE_CHECK_FINISHED";
+    public static final String ACTION_CHECK_FINISHED = "com.viper.ota.action.UPDATE_CHECK_FINISHED";
     // extra for ACTION_CHECK_FINISHED: total amount of found updates
     public static final String EXTRA_UPDATE_COUNT = "update_count";
     // extra for ACTION_CHECK_FINISHED: amount of updates that are newer than what is installed

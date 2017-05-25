@@ -27,7 +27,7 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.RelativeLayout;
 
-import com.purenexus.ota.R;
+import com.viper.ota.R;
 
 public class ListSwipeItem extends RelativeLayout {
 

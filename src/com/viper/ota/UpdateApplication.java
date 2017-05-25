@@ -9,7 +9,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota;
+package com.viper.ota;
 
 import android.app.Activity;
 import android.app.Application;

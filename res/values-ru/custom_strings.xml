@@ -48,7 +48,7 @@
     <string name="install_title">Установка</string>
     <string name="checking_root">Проверка прав суперпользователя...</string>
     <string name="available_reboot_manual_title">Права суперпользователя не найдены</string>
-    <string name="available_reboot_manual_message">Пожалуйста, перезагрузить в режим восстановления и установите прошивку вручную.\n\nНайти ее вы сможете в папке PureNexusOTA.</string>
+    <string name="available_reboot_manual_message">Пожалуйста, перезагрузить в режим восстановления и установите прошивку вручную.\n\nНайти ее вы сможете в папке ViperOTA.</string>
     <string name="fab_add_file_title">Добавить файл</string>
     <string name="fab_remove_all_files_title">Удалить все файлы</string>
     <string name="fab_wipe_title">Настройки очистки</string>

@@ -38,7 +38,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview \
     --extra-packages android.support.v7.cardview
 
-LOCAL_PACKAGE_NAME := PureOTA
+LOCAL_PACKAGE_NAME := ViperOTA
 
 LOCAL_PROGUARD_FLAGS := -include $(LOCAL_PATH)/proguard.flags
 

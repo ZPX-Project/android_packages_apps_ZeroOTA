@@ -6,7 +6,7 @@
  * The text of the license can be found in the LICENSE file
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
-package com.purenexus.ota;
+package com.viper.ota;
 
 import android.support.v4.util.Pair;
 import android.support.v7.app.AppCompatActivity;
@@ -42,9 +42,9 @@ import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 
 
-import com.purenexus.ota.misc.ItemAdapter;
-import com.purenexus.ota.utils.Utils;
-import com.purenexus.ota.misc.Constants;
+import com.viper.ota.misc.ItemAdapter;
+import com.viper.ota.utils.Utils;
+import com.viper.ota.misc.Constants;
 
 import java.util.ArrayList;
 

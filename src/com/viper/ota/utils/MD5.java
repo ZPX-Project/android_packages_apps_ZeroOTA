@@ -8,7 +8,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.utils;
+package com.viper.ota.utils;
 
 import android.text.TextUtils;
 import android.util.Log;

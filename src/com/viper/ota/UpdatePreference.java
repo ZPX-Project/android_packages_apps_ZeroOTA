@@ -9,7 +9,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota;
+package com.viper.ota;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -29,10 +29,10 @@ import android.text.format.Formatter;
 import android.os.Handler;
 import java.lang.Runnable;
 
-import com.purenexus.ota.misc.UpdateInfo;
-import com.purenexus.ota.UpdateApplication;
-import com.purenexus.ota.UpdatesActivity;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.misc.UpdateInfo;
+import com.viper.ota.UpdateApplication;
+import com.viper.ota.UpdatesActivity;
+import com.viper.ota.utils.Utils;
 
 import java.io.File;
 

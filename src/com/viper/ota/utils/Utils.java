@@ -8,7 +8,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.utils;
+package com.viper.ota.utils;
 
 import android.app.AlarmManager;
 import android.app.NotificationManager;
@@ -32,9 +32,9 @@ import android.provider.MediaStore;
 import android.database.Cursor;
 import android.content.ContentUris;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.service.UpdateCheckService;
+import com.viper.ota.R;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.service.UpdateCheckService;
 
 import java.io.BufferedWriter;
 import java.io.BufferedReader;

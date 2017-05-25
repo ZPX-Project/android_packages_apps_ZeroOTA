@@ -7,7 +7,7 @@
  * The text of the license can be found in the LICENSE file
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
-package com.purenexus.ota;
+package com.viper.ota;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -26,8 +26,8 @@ import android.widget.TextView;
 import android.os.Handler;
 import java.lang.Runnable;
 
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.utils.Utils;
 
 import java.util.Date;
 

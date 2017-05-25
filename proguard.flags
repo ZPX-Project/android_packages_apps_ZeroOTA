@@ -1,4 +1,4 @@
--keep class com.purenexus.ota.UpdatesSettings {
+-keep class com.viper.ota.UpdatesSettings {
   *;
 }
 -keep class android.support.design.widget.** { *; }

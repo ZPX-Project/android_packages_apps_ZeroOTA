@@ -8,7 +8,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.service;
+package com.viper.ota.service;
 
 import android.app.DownloadManager;
 import android.app.IntentService;
@@ -24,11 +24,11 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.misc.UpdateInfo;
-import com.purenexus.ota.receiver.DownloadReceiver;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.R;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.misc.UpdateInfo;
+import com.viper.ota.receiver.DownloadReceiver;
+import com.viper.ota.utils.Utils;
 
 import org.json.JSONObject;
 

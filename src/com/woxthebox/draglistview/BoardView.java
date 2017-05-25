@@ -37,7 +37,7 @@ import android.widget.Scroller;
 
 import java.util.ArrayList;
 
-import com.purenexus.ota.R;
+import com.viper.ota.R;
 
 import static android.support.v7.widget.RecyclerView.NO_POSITION;
 

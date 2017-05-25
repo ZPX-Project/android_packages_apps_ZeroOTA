@@ -9,7 +9,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.receiver;
+package com.viper.ota.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -19,8 +19,8 @@ import android.net.ConnectivityManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.utils.Utils;
 
 public class UpdateCheckReceiver extends BroadcastReceiver {
     private static final String TAG = "UpdateCheckReceiver";

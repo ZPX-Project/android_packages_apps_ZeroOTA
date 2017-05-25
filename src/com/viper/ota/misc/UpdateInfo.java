@@ -8,14 +8,14 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.misc;
+package com.viper.ota.misc;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.text.TextUtils;
 
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.utils.Utils;
 
 import java.io.File;
 import java.io.Serializable;

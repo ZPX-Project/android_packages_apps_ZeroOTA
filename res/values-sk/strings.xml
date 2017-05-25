@@ -66,7 +66,7 @@
   <string name="delete_updates_noFolder_message">Priečinok s aktualizáciou sa nenašiel</string>
   <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli vymazané</string>
   <!-- Header -->
-  <string name="header_os">PureNexus
+  <string name="header_os">Viper
 \n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Posledná kontrola</string>
@@ -75,7 +75,7 @@
   <string name="type_downloaded">• Stiahnuté</string>
   <string name="type_downloading">• Sťahovanie</string>
   <string name="type_completing">• Dokončovanie</string>
-  <string name="summary">%1$s\nPureNexus %2$s • Android %3$s</string>
+  <string name="summary">%1$s\nViper %2$s • Android %3$s</string>
   <string name="download_button">Stiahnuť</string>
   <string name="install_button">Nainštalovať</string>
 </resources>

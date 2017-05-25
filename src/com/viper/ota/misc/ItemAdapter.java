@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.misc;
+package com.viper.ota.misc;
 
 import android.content.Context;
 import android.support.v4.util.Pair;
@@ -32,8 +32,8 @@ import com.woxthebox.draglistview.DragItemAdapter;
 
 import java.util.ArrayList;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.InstallActivity;
+import com.viper.ota.R;
+import com.viper.ota.InstallActivity;
 
 public class ItemAdapter extends DragItemAdapter<Pair<Long, String>, ItemAdapter.ViewHolder> {
 

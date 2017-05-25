@@ -8,7 +8,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.receiver;
+package com.viper.ota.receiver;
 
 import android.app.DownloadManager;
 import android.app.StatusBarManager;
@@ -20,22 +20,22 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.misc.UpdateInfo;
-import com.purenexus.ota.service.DownloadCompleteIntentService;
-import com.purenexus.ota.service.DownloadService;
-import com.purenexus.ota.utils.Utils;
+import com.viper.ota.R;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.misc.UpdateInfo;
+import com.viper.ota.service.DownloadCompleteIntentService;
+import com.viper.ota.service.DownloadService;
+import com.viper.ota.utils.Utils;
 
 import java.io.IOException;
 
 public class DownloadReceiver extends BroadcastReceiver{
     private static final String TAG = "DownloadReceiver";
 
-    public static final String ACTION_START_DOWNLOAD = "com.purenexus.ota.action.START_DOWNLOAD";
+    public static final String ACTION_START_DOWNLOAD = "com.viper.ota.action.START_DOWNLOAD";
     public static final String EXTRA_UPDATE_INFO = "update_info";
 
-    public static final String ACTION_DOWNLOAD_STARTED = "com.purenexus.ota.action.DOWNLOAD_STARTED";
+    public static final String ACTION_DOWNLOAD_STARTED = "com.viper.ota.action.DOWNLOAD_STARTED";
     static final String EXTRA_FILENAME = "filename";
 
     @Override

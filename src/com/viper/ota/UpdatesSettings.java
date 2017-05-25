@@ -9,7 +9,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota;
+package com.viper.ota;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -46,14 +46,14 @@ import android.view.LayoutInflater;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
-import com.purenexus.ota.misc.Constants;
-import com.purenexus.ota.misc.State;
-import com.purenexus.ota.misc.UpdateInfo;
-import com.purenexus.ota.receiver.DownloadReceiver;
-import com.purenexus.ota.service.UpdateCheckService;
-import com.purenexus.ota.utils.UpdateFilter;
-import com.purenexus.ota.utils.Utils;
-import com.purenexus.ota.utils.MD5;
+import com.viper.ota.misc.Constants;
+import com.viper.ota.misc.State;
+import com.viper.ota.misc.UpdateInfo;
+import com.viper.ota.receiver.DownloadReceiver;
+import com.viper.ota.service.UpdateCheckService;
+import com.viper.ota.utils.UpdateFilter;
+import com.viper.ota.utils.Utils;
+import com.viper.ota.utils.MD5;
 
 import java.io.File;
 import java.io.IOException;

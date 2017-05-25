@@ -11,9 +11,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="not_new_updates_found_body">
-    <item quantity="one">Доступна <xliff:g id="count">%d</xliff:g> обновлённая версия PureNexus</item>
-    <item quantity="few">Доступно <xliff:g id="count">%d</xliff:g> обновлённых версии PureNexus</item>
-    <item quantity="other">Доступно <xliff:g id="count">%d</xliff:g> обновлённых версий PureNexus</item>
+    <item quantity="one">Доступна <xliff:g id="count">%d</xliff:g> обновлённая версия Viper</item>
+    <item quantity="few">Доступно <xliff:g id="count">%d</xliff:g> обновлённых версии Viper</item>
+    <item quantity="other">Доступно <xliff:g id="count">%d</xliff:g> обновлённых версий Viper</item>
   </plurals>
   <plurals name="not_additional_count">
     <item quantity="one">+ ещё <xliff:g id="count">%d</xliff:g></item>

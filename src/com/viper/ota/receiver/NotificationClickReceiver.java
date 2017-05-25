@@ -8,13 +8,13 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.purenexus.ota.receiver;
+package com.viper.ota.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.purenexus.ota.UpdatesActivity;
+import com.viper.ota.UpdatesActivity;
 
 public class NotificationClickReceiver extends BroadcastReceiver{
     @Override
