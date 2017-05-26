@@ -70,7 +70,7 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="delete_updates_noFolder_message">Folder aktualizacji nie został odnaleziony</string>
   <string name="delete_updates_success_message">Usunięto wszystkie pobrane aktualizacje</string>
   <!-- Header -->
-  <string name="header_os">Viper
+  <string name="header_os">ViperOS
 \n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Ostatnio sprawdzono</string>
@@ -79,7 +79,7 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="type_downloaded">• Pobrane</string>
   <string name="type_downloading">• Pobieranie</string>
   <string name="type_completing">• Kończenie</string>
-  <string name="summary">%1$s\nViper %2$s • Android %3$s</string>
+  <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Pobierz</string>
   <string name="install_button">Instaluj</string>
 </resources>

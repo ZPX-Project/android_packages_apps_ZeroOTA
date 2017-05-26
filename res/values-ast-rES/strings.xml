@@ -65,7 +65,7 @@
   <string name="delete_updates_noFolder_message">Nun s\'alcontró la carpeta d\'anovamientos</string>
   <string name="delete_updates_success_message">Desaniciáronse tolos anovamientos baxaos</string>
   <!-- Header -->
-  <string name="header_os">Viper
+  <string name="header_os">ViperOS
 \n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Comprobación cabera\'l</string>
@@ -74,7 +74,7 @@
   <string name="type_downloaded">• Baxáu</string>
   <string name="type_downloading">• Baxando</string>
   <string name="type_completing">• Completando</string>
-  <string name="summary">%1$s\nViper %2$s • Android %3$s</string>
+  <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Baxar</string>
   <string name="install_button">Instalar</string>
 </resources>

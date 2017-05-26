@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Обновления Viper</string>
+  <string name="app_name">Обновления ViperOS</string>
   <string name="display_name">Обновления</string>
   <string name="unknown">Неизвестно</string>
   <!-- Menu and dialog box strings -->
@@ -24,7 +24,7 @@
   <string name="dialog_close">Закрыть</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Доступные обновления</string>
-  <string name="no_available_updates_intro">Установлена последняя версия Viper. Для поиска доступных обновлений нажмите кнопку «Проверить».</string>
+  <string name="no_available_updates_intro">Установлена последняя версия ViperOS. Для поиска доступных обновлений нажмите кнопку «Проверить».</string>
   <string name="update_check_title">Проверка обновлений</string>
   <string name="check_manual">Вручную</string>
   <string name="check_daily">Ежедневно</string>
@@ -36,7 +36,7 @@
   <string name="no_updates_found">Нет доступных обновлений</string>
   <string name="update_check_failed">Не удалось выполнить поиск обновлений. Проверьте подключение к Интернету и повторите попытку.</string>
   <string name="not_new_updates_found_ticker">Доступно обновление системы</string>
-  <string name="not_new_updates_found_title">Обновления Viper</string>
+  <string name="not_new_updates_found_title">Обновления ViperOS</string>
   <string name="not_action_download">Загрузить</string>
   <string name="data_connection_required">Необходимо подключение к Интернету</string>
   <!-- Downloads -->
@@ -66,7 +66,7 @@
   <string name="delete_updates_noFolder_message">Каталог с обновлениями не найден</string>
   <string name="delete_updates_success_message">Все загруженные обновления удалены</string>
   <!-- Header -->
-  <string name="header_os">Viper\n%1$s</string>
+  <string name="header_os">ViperOS\n%1$s</string>
   <string name="header_summary">Версия от %1$s\n%2$s • Android %3$s\n%4$s</string>
   <string name="sysinfo_last_check">Последняя проверка</string>
   <!-- Build item -->
@@ -74,7 +74,7 @@
   <string name="type_downloaded">• готово к установке</string>
   <string name="type_downloading">• выполняется скачивание</string>
   <string name="type_completing">• завершение установки</string>
-  <string name="summary">Версия от %1$s\nViper %2$s • Android %3$s</string>
+  <string name="summary">Версия от %1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Скачать</string>
   <string name="install_button">Установить</string>
 </resources>

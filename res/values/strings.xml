@@ -11,10 +11,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name">Viper Updates</string>
-    <string name="display_name">Viper Updates</string>
+    <string name="app_name">ViperOS Updates</string>
+    <string name="display_name">ViperOS Updates</string>
     <string name="unknown">Unknown</string>
-    <string name="rom_name" translatable="false">Viper</string>
+    <string name="rom_name" translatable="false">ViperOS</string>
 
     <!-- Menu and dialog box strings -->
     <string name="menu_refresh">Refresh</string>
@@ -75,7 +75,7 @@
     <string name="delete_updates_success_message">All downloaded updates deleted</string>
 
     <!-- Header -->
-    <string name="header_os">Viper
+    <string name="header_os">ViperOS
 \n%1$s</string>
     <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
     <string name="sysinfo_last_check">Last checked</string>
@@ -85,7 +85,7 @@
     <string name="type_downloaded">• Downloaded</string>
     <string name="type_downloading">• Downloading</string>
     <string name="type_completing">• Completing</string>
-    <string name="summary">%1$s\nViper %2$s • Android %3$s</string>
+    <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
     <string name="download_button">Download</string>
     <string name="install_button">Install</string>
 </resources>

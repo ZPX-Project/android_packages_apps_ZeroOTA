@@ -66,7 +66,7 @@
   <string name="delete_updates_noFolder_message">תיקיית עדכונים לא נמצאה</string>
   <string name="delete_updates_success_message">כל העדכונים שהורדו נמחקו</string>
   <!-- Header -->
-  <string name="header_os">Viper
+  <string name="header_os">ViperOS
 \n%1$s</string>
   <string name="header_summary">%1$s\n%2$s • אנדרואיד %3$s\n%4$s</string>
   <string name="sysinfo_last_check">בדיקה אחרונה</string>
@@ -75,7 +75,7 @@
   <string name="type_downloaded">• הורדו</string>
   <string name="type_downloading">• מוריד</string>
   <string name="type_completing">• מסיים</string>
-  <string name="summary">%1$s\nViper %2$s • אנדרואיד %3$s</string>
+  <string name="summary">%1$s\nViperOS %2$s • אנדרואיד %3$s</string>
   <string name="download_button">הורדה</string>
   <string name="install_button">התקן</string>
 </resources>
