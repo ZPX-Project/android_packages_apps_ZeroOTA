@@ -106,8 +106,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
 
     private static final String PREF_DOWNLOAD_FOLDER = "pref_download_folder";
 
-    private static final String PREF_CHECK_MD5 = "pref_check_md5";
-
     private List<Map<String,String>> addons;
 
     private SharedPreferences mPrefs;
@@ -124,8 +122,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
     private PreferenceScreen mDonateInfo;
 
     private PreferenceScreen mDownloadFolder;
-
-    private SwitchPreference mCheckMD5;
 
     private static String DONATE_URL = "";
     private static String WEBSITE_URL = "";
@@ -201,8 +197,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
         mDownloadFolder = (PreferenceScreen) findPreference(PREF_DOWNLOAD_FOLDER);
         mDownloadFolder.setSummary(Utils.makeUpdateFolder().getPath());
 
-        mCheckMD5 = (SwitchPreference) findPreference(PREF_CHECK_MD5);
-
         mWebsiteInfo.setOnPreferenceClickListener(this);
         mDonateInfo.setOnPreferenceClickListener(this);
         mAddons.setOnPreferenceClickListener(this);
@@ -216,10 +210,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             mUpdateCheck.setValue(String.valueOf(check));
             mUpdateCheck.setSummary(mapCheckValue(check));
             mUpdateCheck.setOnPreferenceChangeListener(this);
-        }
-        if (mCheckMD5 != null) {
-            mCheckMD5.setChecked(mPrefs.getBoolean(Constants.CHECK_MD5_PREF, true));
-            mCheckMD5.setOnPreferenceChangeListener(this);
         }
     }
 
@@ -236,11 +226,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
             mPrefs.edit().putInt(Constants.UPDATE_CHECK_PREF, value).apply();
             mUpdateCheck.setSummary(mapCheckValue(value));
             Utils.scheduleUpdateService(mContext, value * 1000);
-            return true;
-        }
-        if (preference == mCheckMD5) {
-            Boolean value = (Boolean)newValue;
-            mPrefs.edit().putBoolean(Constants.CHECK_MD5_PREF, value).apply();
             return true;
         }
 
@@ -859,9 +844,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
         }
 
         mStartUpdateVisible = true;
-        boolean isMD5CheckAllowed = mPrefs.getBoolean(Constants.CHECK_MD5_PREF, true);
-
-        if (isMD5CheckAllowed){
             mProgressDialog = new ProgressDialog(mContext);
             mProgressDialog.setMessage(mContext.getString(R.string.checking_md5));
             mProgressDialog.setIndeterminate(true);
@@ -875,7 +857,14 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                     } catch (InterruptedException e) {
                     }
                     File updateFile = new File(Utils.makeUpdateFolder().getPath() + "/" + updateInfo.getFileName());
-                    return MD5.checkMD5(Utils.readMD5File(updateInfo.getFileName()),updateFile);
+                    boolean isMD5Valid = MD5.checkMD5(Utils.readMD5File(updateInfo.getFileName()),updateFile);
+                    try {
+                        if (!isMD5Valid){
+                            updateFile.delete();
+                        }
+                    } catch (Exception e) {
+                    }
+                    return isMD5Valid;
                 }
 
                 protected void onPostExecute(Boolean result) {
@@ -912,10 +901,6 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
                     }
                 }
             }.execute();
-
-        }else{
-            showInstallDialog(updateInfo);
-        }
 
     }
 
