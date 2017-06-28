@@ -10,7 +10,12 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Registro de cambios</string>
+  <string name="changelog_loading">Cargando el registro de cambios...</string>
+  <string name="changelog_error">Error cargando el registro de cambios</string>
+  <string name="changelog_not_available">Registro de cambios no disponible</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Ajustes</string>
   <!-- Main section -->
   <!-- Info section -->
   <!-- Addons -->
