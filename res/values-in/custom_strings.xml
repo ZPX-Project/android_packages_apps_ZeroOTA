@@ -10,6 +10,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Log perubahan</string>
   <!-- Settings section -->
   <!-- Main section -->
   <!-- Info section -->
