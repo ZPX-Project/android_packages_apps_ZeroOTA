@@ -29,6 +29,10 @@ LOCAL_RESOURCE_DIR := \
     $(TOP)/frameworks/support/v7/recyclerview/res \
     $(LOCAL_PATH)/res
 
+# Viper Color Engine
+$(warning *** Including Viper Color Engine ***)
+LOCAL_RESOURCE_DIR += vendor/viper/colorengine/$(LOCAL_PATH)/res
+
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
     --extra-packages android.support.design \
