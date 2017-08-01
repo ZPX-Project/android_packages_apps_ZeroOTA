@@ -13,14 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Oppdaterer</string>
-  <string name="display_name">Oppdateringer</string>
-  <string name="unknown">Ukjent</string>
+  <string name="display_name">Oppdaterer</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Oppdater</string>
   <string name="menu_delete_all">Fjern nedlastinger</string>
-  <string name="dialog_ok">Ok</string>
-  <string name="dialog_cancel">Avbryt</string>
-  <string name="dialog_update">Oppdater</string>
   <string name="dialog_close">Lukk</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Tilgjengelige oppdateringer</string>
@@ -57,7 +53,6 @@
   <string name="apply_update_dialog_text">Du er i ferd med å oppgradere til <xliff:g id="filename">%s</xliff:g>.\n\nHvis du fortsetter vil telefonen foreta en omstart til recovery-modus for å gjennomføre installasjonen</string>
   <string name="apply_unable_to_reboot_toast">Kunne ikke starte opp i recovery-modus</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Slett fil</string>
   <string name="confirm_delete_dialog_title_tv">Klikk for å fjerne alle nedlastede oppdateringer fra intern lagringskapasitet</string>
   <string name="confirm_delete_dialog_message">Du er i ferd med å fjerne den nedlastede oppdateringsfilen, er du sikker?</string>
   <string name="confirm_delete_all_dialog_message">Du er i ferd med å fjerne alle nedlastede oppdateringsfiler, er du sikker?</string>
@@ -77,5 +72,4 @@
   <string name="type_completing">• Fullfører</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Last ned</string>
-  <string name="install_button">Installer</string>
 </resources>

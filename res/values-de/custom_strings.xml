@@ -10,13 +10,39 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Changelog</string>
+  <string name="changelog_loading">Lade Changelog...</string>
+  <string name="changelog_error">Fehler beim Laden der Änderungsliste</string>
+  <string name="changelog_not_available">Changelog nicht verfügbar</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Einstellungen</string>
+  <string name="download_folder_title">Download-Ordner</string>
   <!-- Main section -->
+  <string name="updates_category_title">Aktuelle Version (tippen um Changelog anzuzeigen)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Extras</string>
+  <string name="developer_info_title">Entwickler</string>
+  <string name="donate_info_title">Spenden</string>
+  <string name="donate_info_summary">Spendiere mir einen Kaffee</string>
+  <string name="website_info_title">Forum</string>
+  <string name="website_info_summary">XDA-Thread anzeigen</string>
+  <string name="error_open_url">Öffnen der URL im Browser fehlgeschlagen</string>
+  <string name="addons_title">Erweiterungen</string>
+  <string name="addons_summary">Nützliche Dateien</string>
   <!-- Addons -->
+  <string name="addons_error">Fehler beim Laden der Erweiterungsliste</string>
   <!-- MD5 -->
+  <string name="checking_md5">Hash überprüfen...</string>
+  <string name="md5_failed_dialog_title">Hash Verifizierung</string>
+  <string name="md5_failed_dialog_message">Hash Verifizierung fehlgeschlagen, möchten Sie fortfahren?</string>
   <!-- Storage permission -->
   <!-- Restart recovery -->
+  <string name="restart_recovery">Ins Recovery-Modus neustarten</string>
+  <string name="restart_recovery_dialog_message">Sind Sie sicher, dass Sie Neustarten wollen?</string>
+  <string name="restart_recovery_error_message">Konnte nicht Neustarten, bitte den Root-Zugriff überprüfen</string>
   <!-- OTA not configured -->
   <!-- Install -->
+  <string name="install_title">Installieren</string>
+  <string name="checking_root">Root-Zugriff wird überprüft...</string>
+  <string name="available_reboot_manual_title">Root-Zugriff nicht gefunden</string>
 </resources>

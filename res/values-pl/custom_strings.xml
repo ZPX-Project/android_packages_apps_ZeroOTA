@@ -21,7 +21,7 @@
   <string name="updates_category_title">Najnowsza wersja (dotknij, aby wyświetlić listę zmian)</string>
   <!-- Info section -->
   <string name="extras_category_title">Dodatki</string>
-  <string name="developer_info_title">Twórca/-cy</string>
+  <string name="developer_info_title">Opiekunowie</string>
   <string name="donate_info_title">Wspomóż nas</string>
   <string name="donate_info_summary">Kup mi kawę</string>
   <string name="website_info_title">Forum</string>
@@ -42,16 +42,16 @@
   <string name="restart_recovery_dialog_message">Czy na pewno chcesz zrestartować?</string>
   <string name="restart_recovery_error_message">Nie można zrestartować, proszę sprawdzić uprawnienia root</string>
   <!-- OTA not configured -->
-  <string name="ota_not_configured_error_message">OTA nie skonfigurowane, prosimy o kontakt z twórcą ROMu.</string>
+  <string name="ota_not_configured_error_message">OTA nie skonfigurowane, prosimy o kontakt z opiekunem ROMu.</string>
   <!-- Install -->
   <string name="install_title">Zainstaluj</string>
   <string name="checking_root">Sprawdzanie uprawnień root...</string>
   <string name="available_reboot_manual_title">Nie przyznano uprawnień root</string>
-  <string name="available_reboot_manual_message">Proszę zrestartuj do trybu recovery i zainstaluj ręcznie.\n\nMożesz znaleźć plik zip ROM w folderze ViperOTA.</string>
+  <string name="available_reboot_manual_message">Proszę zrestartuj do trybu recovery i zainstaluj ręcznie.\n\nPlik zip ROM-u znajdziesz w folderze ViperOTA.</string>
   <string name="fab_add_file_title">Dodaj plik</string>
   <string name="fab_remove_all_files_title">Usuń wszystkie pliki</string>
   <string name="fab_wipe_title">Opcje formatowania</string>
-  <string name="fab_install_title">Wejdź do trybu recovery i zainstaluj</string>
+  <string name="fab_install_title">Zrestartuj do trybu recovery i zainstaluj</string>
   <string name="wipe_cache">Wyczyść pamięć cache</string>
   <string name="wipe_dalvik">Wyczyść pamięć dalvik cache</string>
   <string name="wipe_data">Wyczyść dane</string>

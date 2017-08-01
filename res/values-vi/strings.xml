@@ -13,13 +13,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Trình cập nhật</string>
-  <string name="display_name">Cập nhật</string>
-  <string name="unknown">Không rõ</string>
+  <string name="display_name">Trình cập nhật</string>
+  <string name="unknown">Không rõ</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Làm mới</string>
   <string name="menu_delete_all">Xoá mục tải xuống</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Huỷ</string>
+  <string name="dialog_ok">Đồng ý</string>
+  <string name="dialog_cancel">Hủy</string>
   <string name="dialog_update">Cập nhật</string>
   <string name="dialog_close">Đóng</string>
   <!-- Settings strings -->
@@ -57,7 +57,7 @@
   <string name="apply_update_dialog_text">Bạn chuẩn bị nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nNếu bạn bấm vào Cập nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>
   <string name="apply_unable_to_reboot_toast">Không thể khởi động lại vào recovery</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Xoá tập tin</string>
+  <string name="confirm_delete_dialog_title">Xóa tập tin</string>
   <string name="confirm_delete_dialog_title_tv">Nhấn để xoá tất cả bản cập nhật đã tải xuống từ bộ nhớ trong</string>
   <string name="confirm_delete_dialog_message">Xóa các tập tin cập nhật được chọn?</string>
   <string name="confirm_delete_all_dialog_message">Xóa tất cả các tập tin cập nhật đã tải xuống?</string>

@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">Atnaujinimai</string>
-  <string name="unknown">Nežinoma</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Atnaujinti</string>
   <string name="menu_delete_all">Ištrinti atsisiuntimus</string>
-  <string name="dialog_ok">Gerai</string>
-  <string name="dialog_cancel">Atšaukti</string>
-  <string name="dialog_update">Atnaujinti</string>
   <string name="dialog_close">Uždaryti</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Pasiekiami atnaujinimai</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">Ruošiatės atnaujinti į <xliff:g id="filename">%s</xliff:g>.\n\nJei spausite „Atnaujinti“, įrenginys bus paleistas iš naujo ir pats įdiegs atnaujinimą.\n\nPastaba: Ši funkcija reikalauja suderinamos atkūrimo programos, arba atnaujinimą teks diegti rankiniu būdu.</string>
   <string name="apply_unable_to_reboot_toast">Nepavyko paleisti iš naujo į atkūrimo režimą</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Ištrinti failą (-us)</string>
   <string name="confirm_delete_dialog_title_tv">Spauskite, kad pašalintumėte visus atsisiųstus atnaujinimus iš vidinės saugyklos</string>
   <string name="confirm_delete_dialog_message">Ištrinti pasirinktą atnaujinimo failą?</string>
   <string name="confirm_delete_all_dialog_message">Ištrinti visus atsisiųstus atnaujinimo failus?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">Visi atsisiųsti atnaujinimai ištrinti</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">Atsisiųsti</string>
 </resources>

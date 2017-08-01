@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">Aktualiséierungen</string>
-  <string name="unknown">Onbekannt</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Opfrëschen</string>
   <string name="menu_delete_all">Downloads läschen</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Ofbriechen</string>
-  <string name="dialog_update">Aktualiséieren</string>
   <string name="dialog_close">Zoumaachen</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Disponibel Aktualiséierungen</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">Prett fir d\'Aktualiséierung op <xliff:g id="filename">%s</xliff:g>.\n\nNo der Bestätegung gëtt den Apparat am Recuperatiounsmodus gestartet, fir d\'Aktualiséierung duerchzeféieren.\n\nHiwäis: Dës Funktioun setzt viraus datt e kompatibele Recuperatiounssystem installéiert ass, anerefalls muss d\'Aktualiséierung manuell installéiert ginn.</string>
   <string name="apply_unable_to_reboot_toast">Kann net an de Recuperatiounsmodus starten</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Fichier läschen</string>
   <string name="confirm_delete_dialog_title_tv">Dréck fir all déi erofgelueden Aktualiséierunge vum interne Späicher ze läschen</string>
   <string name="confirm_delete_dialog_message">Den ausgewielten Aktualiséierungsfichier läschen?</string>
   <string name="confirm_delete_all_dialog_message">All déi erofgelueden Aktualiséierungsfichiere läschen?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">All déi erofgelueden Aktualiséierunge goufe geläscht</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">Eroflueden</string>
 </resources>

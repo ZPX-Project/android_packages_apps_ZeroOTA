@@ -13,14 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Актуализатор</string>
-  <string name="display_name">Актуализации</string>
-  <string name="unknown">Неизвестна</string>
+  <string name="display_name">Актуализатор</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Опресняване</string>
   <string name="menu_delete_all">Изтриване на изтеглените файлове</string>
-  <string name="dialog_ok">Добре</string>
-  <string name="dialog_cancel">Отказ</string>
-  <string name="dialog_update">Актуализирай</string>
   <string name="dialog_close">Затваряне</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Налични актуализации</string>
@@ -57,7 +53,6 @@
   <string name="apply_update_dialog_text">На път сте да актуализирате до версия <xliff:g id="filename">%s</xliff:g>.\n\nАко натиснете бутона \"Актуализирай\" устройството ще премине в режим на възстановяване, за да приложи тази актуализация.\n\n Забележка: Тази функция изисква съвместим режим на възстановяване, в противен случай ще трябва да приложите актуализацията ръчно.</string>
   <string name="apply_unable_to_reboot_toast">Не може да се рестартира в режим на възстановяване</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Изтриване на файл</string>
   <string name="confirm_delete_dialog_title_tv">Натиснете, за премахване на всички изтеглени актуализации от вътрешното хранилище</string>
   <string name="confirm_delete_dialog_message">Да бъде ли изтрит файлът на избраната актуализация?</string>
   <string name="confirm_delete_all_dialog_message">Да бъдат ли изтрити файловете на всички свалени актуализации?</string>
@@ -77,5 +72,4 @@
   <string name="type_completing">• Завършване</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Изтегляне</string>
-  <string name="install_button">Инсталиране</string>
 </resources>

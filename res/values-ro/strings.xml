@@ -13,14 +13,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Actualizator</string>
-  <string name="display_name">Actualizări</string>
-  <string name="unknown">Necunoscut</string>
+  <string name="display_name">Actualizator</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Reîmprospătare</string>
   <string name="menu_delete_all">Ștergeți descărcările</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Anulare</string>
-  <string name="dialog_update">Actualizați</string>
+  <string name="dialog_ok">Okay</string>
+  <string name="dialog_update">Actualizează</string>
   <string name="dialog_close">Închideți</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Actualizări disponibile</string>
@@ -57,7 +55,6 @@
   <string name="apply_update_dialog_text">Intenționați să faceți upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsați Actualizare, dispozitivul va reporni în modul recovery pentru a instala actualizarea.\n\nNotă: această caracteristică necesită Recovery compatibil sau actualizările trebuie să fie instalate manual.</string>
   <string name="apply_unable_to_reboot_toast">Nu se poate reporni în Recovery</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Ștergeți fișierul</string>
   <string name="confirm_delete_dialog_title_tv">Faceţi clic pentru a elimina toate actualizările descărcate pe stocarea internă</string>
   <string name="confirm_delete_dialog_message">Șterge fișierul de actualizare selectat?</string>
   <string name="confirm_delete_all_dialog_message">Șterge toate fișierele de actualizare?</string>
@@ -76,6 +73,5 @@
   <string name="type_downloading">• Descărcare</string>
   <string name="type_completing">• Completare</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="download_button">Descărcați</string>
-  <string name="install_button">Instalați</string>
+  <string name="download_button">Descarcă</string>
 </resources>

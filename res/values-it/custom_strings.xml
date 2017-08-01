@@ -10,23 +10,23 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
-  <string name="changelog">Changelog</string>
-  <string name="changelog_loading">Caricamento changelog...</string>
-  <string name="changelog_error">Errore caricamento changelog</string>
-  <string name="changelog_not_available">Changelog non disponibile</string>
+  <string name="changelog">Modifiche</string>
+  <string name="changelog_loading">Caricamento delle modifiche...</string>
+  <string name="changelog_error">Errore di caricamento delle modifiche</string>
+  <string name="changelog_not_available">Modifiche non disponibili</string>
   <!-- Settings section -->
   <string name="settings_category_title">Impostazioni</string>
   <string name="download_folder_title">Cartella download</string>
   <!-- Main section -->
-  <string name="updates_category_title">Ultima versione (toccare per visualizzare il changelog)</string>
+  <string name="updates_category_title">Ultima versione (toccare per visualizzare le modifiche)</string>
   <!-- Info section -->
   <string name="extras_category_title">Extra</string>
   <string name="developer_info_title">Manutentore(i)</string>
-  <string name="donate_info_title">Dona</string>
+  <string name="donate_info_title">Donazione</string>
   <string name="donate_info_summary">Offrimi un caffè</string>
   <string name="website_info_title">Forum</string>
-  <string name="website_info_summary">Visualizza discussione XDA</string>
-  <string name="error_open_url">Impossibile aprire URL nel browser</string>
+  <string name="website_info_summary">Visualizza la discussione su XDA</string>
+  <string name="error_open_url">Impossibile aprire l\'URL nel browser</string>
   <string name="addons_title">Estensioni</string>
   <string name="addons_summary">File utili</string>
   <!-- Addons -->
@@ -57,8 +57,8 @@
   <string name="wipe_data">Cancella dati</string>
   <string name="delete_file_dialog_title">Elimina file</string>
   <string name="delete_file_dialog_message">Sei sicuro di che voler eliminare questo file dalla lista?</string>
-  <string name="file_not_allowed">Consenti solo file zip</string>
-  <string name="file_get_path_error">Impossibile trovare percorso file</string>
+  <string name="file_not_allowed">Solo i file zip sono ammessi</string>
+  <string name="file_get_path_error">Impossibile trovare il percorso del file</string>
   <string name="no_files">Nessun file aggiunto. È possibile aggiungere un file facendo clic sul pulsante \'+\'</string>
   <string name="please_wait">Attendere prego ...</string>
   <string name="copy_progress">Copia di %1$s...</string>

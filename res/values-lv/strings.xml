@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">Atjaunojumi</string>
-  <string name="unknown">Nezināms</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Atjaunot</string>
   <string name="menu_delete_all">Dzēst lejuplādes</string>
-  <string name="dialog_ok">Labi</string>
-  <string name="dialog_cancel">Atcelt</string>
-  <string name="dialog_update">Atjaunot</string>
   <string name="dialog_close">Aizvērt</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Pieejamie atjaunojumi</string>
@@ -54,7 +49,6 @@
         \nPiezīme: Automātiskai atjaunošanai nepieciešama saderīga atjaunošana, pretējā gadījumā atjaunojumus jāuzstāda manuāli.</string>
   <string name="apply_unable_to_reboot_toast">Neizdevās pārsāknēties atjaunošanas režīmā</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Dzēst failu</string>
   <string name="confirm_delete_dialog_title_tv">Spiediet, lai dzēstu visus lejuplādētos atjaunojumus no iekšējās atmiņas</string>
   <string name="confirm_delete_dialog_message">Dzēst izvēlēto atjaunojuma failu?</string>
   <string name="confirm_delete_all_dialog_message">Dzēst visus lejuplādētos atjaunojumu failus?</string>
@@ -64,4 +58,5 @@
   <string name="delete_updates_success_message">Visi lejuplādētie atjaunojumi izdzēsti</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">Lejuplādēt</string>
 </resources>

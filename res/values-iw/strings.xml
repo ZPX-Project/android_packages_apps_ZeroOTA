@@ -14,12 +14,10 @@
   <!-- General strings -->
   <string name="app_name">עדכונים</string>
   <string name="display_name">עדכונים</string>
-  <string name="unknown">לא ידוע</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">רענון</string>
   <string name="menu_delete_all">מחק הורדות</string>
   <string name="dialog_ok">אישור</string>
-  <string name="dialog_cancel">ביטול</string>
   <string name="dialog_update">עדכן</string>
   <string name="dialog_close">סגור</string>
   <!-- Settings strings -->
@@ -57,7 +55,6 @@
   <string name="apply_update_dialog_text">אתה עומד לשדרג ל-<xliff:g id="filename">%s</xliff:g>.\n\nאם תלחץ על \"עדכן\", המכשיר יאתחל את עצמו למצב \"שחזור\" על מנת להתקין את העדכון.\n\nהערה: אפשרות זו דורשת שחזור תואם, או שפעולת התקנת העדכונים תיאלץ להיעשות באופן ידני.</string>
   <string name="apply_unable_to_reboot_toast">נכשל אתחול למצב \"שחזור\"</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">מחק קובץ</string>
   <string name="confirm_delete_dialog_title_tv">לחץ כאן כדי להסיר מהאחסון הפנימי את כל העדכונים שהורדו</string>
   <string name="confirm_delete_dialog_message">אתה עומד למחוק את הקובץ העדכון שנבחר, לחץ על \"כן\" להמשך.</string>
   <string name="confirm_delete_all_dialog_message">אתה עומד למחוק את כל קובצי העדכון שהורדו, לחץ על \"כן\" להמשך.</string>
@@ -77,5 +74,4 @@
   <string name="type_completing">• מסיים</string>
   <string name="summary">%1$s\nViperOS %2$s • אנדרואיד %3$s</string>
   <string name="download_button">הורדה</string>
-  <string name="install_button">התקן</string>
 </resources>

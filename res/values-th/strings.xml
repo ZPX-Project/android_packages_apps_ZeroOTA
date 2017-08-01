@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">การอัปเดตรุ่น</string>
-  <string name="unknown">ไม่รู้จัก</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">โหลดใหม่</string>
   <string name="menu_delete_all">ลบสิ่งที่ดาวน์โหลดไว้</string>
-  <string name="dialog_ok">ตกลง</string>
-  <string name="dialog_cancel">ยกเลิก</string>
-  <string name="dialog_update">การอัปเดต</string>
   <string name="dialog_close">ปิด</string>
   <!-- Settings strings -->
   <string name="available_updates_title">การอัปเดตที่พร้อมให้ดาวน์โหลด</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">คุณกำลังจะอัพเกรดเป็น <xliff:g id="filename">%s</xliff:g>\n\nถ้าคุณกด อัปเดต อุปกรณ์จะเริ่มระบบใหม่ในรูปแบบ recovery เพื่อติดตั้งการอัปเดต\n\nหมายเหตุ: คุณสมบัตินี้ต้องใช้ recovery ที่เข้ากันได้ หรือไม่เช่นนั้นคุณต้องติดตั้งการอัปเดตด้วยตัวเอง</string>
   <string name="apply_unable_to_reboot_toast">ไม่สามารถเริ่มระบบแบบ recovery ได้</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ลบไฟล์</string>
   <string name="confirm_delete_dialog_title_tv">คลิกเพื่อลบการอัปเดตรุ่นทั้งหมดออกจากที่เก็บข้อมูลภายใน</string>
   <string name="confirm_delete_dialog_message">ลบไฟล์การอัปเดตที่เลือกไว้หรือไม่</string>
   <string name="confirm_delete_all_dialog_message">ต้องการลบไฟล์อัปเดตทั้งหมดหรือไม่</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">การอัปเดตที่ดาวน์โหลดทั้งหมดถูกลบแล้ว</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">ดาวน์โหลด</string>
 </resources>

@@ -10,13 +10,26 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Звіт змін</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Налаштування</string>
   <!-- Main section -->
   <!-- Info section -->
+  <string name="donate_info_title">Фінансова допомога</string>
+  <string name="donate_info_summary">Купіть мені кави</string>
+  <string name="website_info_title">Форум</string>
+  <string name="website_info_summary">Переглянути нитку на XDA</string>
+  <string name="addons_title">Додатки</string>
+  <string name="addons_summary">Корисні файли</string>
   <!-- Addons -->
   <!-- MD5 -->
   <!-- Storage permission -->
   <!-- Restart recovery -->
   <!-- OTA not configured -->
   <!-- Install -->
+  <string name="install_title">Установити</string>
+  <string name="checking_root">Перевірка доступу до root...</string>
+  <string name="fab_add_file_title">Додати файл</string>
+  <string name="please_wait">Зачекайте...</string>
+  <string name="copy_progress">Копіювання %1$s...</string>
 </resources>

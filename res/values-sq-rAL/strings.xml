@@ -13,14 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Përditësuesi</string>
-  <string name="display_name">Përditësime</string>
-  <string name="unknown">E panjohur</string>
+  <string name="display_name">Përditësuesi</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Rifresko</string>
   <string name="menu_delete_all">Fshi shkarkimet</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Anullo</string>
-  <string name="dialog_update">Përditëso</string>
   <string name="dialog_close">Mbyll</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Përditësimet e disponueshme</string>
@@ -54,7 +50,6 @@
   <string name="apply_update_dialog_title">Apliko përditësimin</string>
   <string name="apply_unable_to_reboot_toast">Rindezja në Recovery dështoi</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Fshi skedarin</string>
   <string name="confirm_delete_dialog_title_tv">Kliko për të hequr të gjitha përditësimet e shkarkuara në memorien e brendshme</string>
   <string name="confirm_delete_dialog_message">Dëshiron ta fshish skedarin e zgjedhur të përditësimit?</string>
   <string name="confirm_delete_all_dialog_message">Dëshiron t\'i fshish të gjithë skedarët e përditësimit?</string>
@@ -73,5 +68,5 @@
   <string name="type_downloading">• Duke u shkarkuar</string>
   <string name="type_completing">• Duke përfunduar</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="install_button">Instalo</string>
+  <string name="download_button">Shkarko</string>
 </resources>

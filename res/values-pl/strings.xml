@@ -13,14 +13,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Aktualizator</string>
-  <string name="display_name">Aktualizacje</string>
-  <string name="unknown">Nieznane</string>
+  <string name="display_name">Aktualizator</string>
+  <string name="unknown">Nieznany</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Odśwież</string>
   <string name="menu_delete_all">Usuń pobrane</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <string name="dialog_cancel">Anuluj</string>
-  <string name="dialog_update">Aktualizuj</string>
+  <string name="dialog_update">Akttualizuj</string>
   <string name="dialog_close">Zamknij</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostępne aktualizacje</string>
@@ -81,5 +81,5 @@ Uwaga: Ta funkcja wymaga kompatybilnego recovery. W przeciwnym wypadku aktualiza
   <string name="type_completing">• Kończenie</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Pobierz</string>
-  <string name="install_button">Instaluj</string>
+  <string name="install_button">Zainstaluj</string>
 </resources>

@@ -13,14 +13,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Aktualizovat</string>
-  <string name="display_name">Aktualizace CM</string>
-  <string name="unknown">Neznámý</string>
+  <string name="display_name">Aktualizovat</string>
+  <string name="unknown">Neznámá</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Obnovit</string>
   <string name="menu_delete_all">Odstranit stažené soubory</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <string name="dialog_cancel">Zrušit</string>
-  <string name="dialog_update">Aktualizovat</string>
+  <string name="dialog_update">Aktualizace</string>
   <string name="dialog_close">Zavřít</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupné aktualizace</string>

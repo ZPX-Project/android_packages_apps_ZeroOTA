@@ -13,14 +13,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Aktualizátor</string>
-  <string name="display_name">Aktualizácie</string>
-  <string name="unknown">Neznáme</string>
+  <string name="display_name">Aktualizátor</string>
+  <string name="unknown">Neznáma</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Obnoviť</string>
   <string name="menu_delete_all">Vymazať prevzatia</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Zrušiť</string>
-  <string name="dialog_update">Aktualizovať</string>
+  <string name="dialog_update"> Aktualizovať</string>
   <string name="dialog_close">Zavrieť</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupné aktualizácie</string>
@@ -76,6 +76,6 @@
   <string name="type_downloading">• Sťahovanie</string>
   <string name="type_completing">• Dokončovanie</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="download_button">Stiahnuť</string>
+  <string name="download_button">Download</string>
   <string name="install_button">Nainštalovať</string>
 </resources>

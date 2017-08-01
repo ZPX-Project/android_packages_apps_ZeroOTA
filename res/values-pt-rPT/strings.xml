@@ -13,14 +13,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Atualizador</string>
-  <string name="display_name">Atualizações</string>
+  <string name="display_name">Atualizador</string>
   <string name="unknown">Desconhecido</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Atualizar</string>
   <string name="menu_delete_all">Eliminar transferências</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Cancelar</string>
-  <string name="dialog_update">Atualizar</string>
+  <string name="dialog_update">Actualizar</string>
   <string name="dialog_close">Fechar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Atualizações disponíveis</string>
@@ -57,7 +57,6 @@
   <string name="apply_update_dialog_text">Está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nSe carregar em Atualizar, o dispositivo irá reiniciar e atualizar automaticamente.\n\nNota: É necessário uma Recuperação compatível para que a atualização seja feita automaticamente.</string>
   <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar no modo de recuperação</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Eliminar ficheiro</string>
   <string name="confirm_delete_dialog_title_tv">Clique para apagar do armazenamento interno todas as atualizações transferidas</string>
   <string name="confirm_delete_dialog_message">Deseja eliminar o ficheiro de atualizações selecionado?</string>
   <string name="confirm_delete_all_dialog_message">Eliminar todos os ficheiros de atualização transferidos?</string>
@@ -77,5 +76,4 @@
   <string name="type_completing">• A completar</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Transferir</string>
-  <string name="install_button">Instalar</string>
 </resources>

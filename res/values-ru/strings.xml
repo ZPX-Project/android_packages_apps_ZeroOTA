@@ -13,7 +13,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Обновления ViperOS</string>
-  <string name="display_name">Обновления</string>
+  <string name="display_name">Обновления ViperOS</string>
   <string name="unknown">Неизвестно</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Обновить</string>
@@ -75,6 +75,6 @@
   <string name="type_downloading">• выполняется скачивание</string>
   <string name="type_completing">• завершение установки</string>
   <string name="summary">Сборка от %1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="download_button">Скачать</string>
-  <string name="install_button">Установить</string>
+  <string name="download_button">Загрузить</string>
+  <string name="install_button">Установка</string>
 </resources>

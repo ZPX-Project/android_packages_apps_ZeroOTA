@@ -13,13 +13,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Updater</string>
-  <string name="display_name">Updates</string>
-  <string name="unknown">Onbekend</string>
+  <string name="display_name">Updater</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Vernieuwen</string>
   <string name="menu_delete_all">Downloads verwijderen</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Annuleren</string>
+  <string name="dialog_ok">Oké</string>
+  <string name="dialog_cancel">Annuleer</string>
   <string name="dialog_update">Bijwerken</string>
   <string name="dialog_close">Sluiten</string>
   <!-- Settings strings -->
@@ -57,7 +56,6 @@
   <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u op \'Bijwerken\' tikt, zal het apparaat herstarten om de update te installeren.\n\nLet op: een compatibele recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
   <string name="apply_unable_to_reboot_toast">Kan niet herstarten naar recovery</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Bestand verwijderen</string>
   <string name="confirm_delete_dialog_title_tv">Klik om alle gedownloade updates te verwijderen van de interne opslag</string>
   <string name="confirm_delete_dialog_message">Weet u zeker dat u het gedownloade updatebestand wilt verwijderen?</string>
   <string name="confirm_delete_all_dialog_message">Weet u zeker dat u alle gedownloade updatebestanden wilt verwijderen?</string>
@@ -77,5 +75,4 @@
   <string name="type_completing">• Afronden</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Downloaden</string>
-  <string name="install_button">Installeren</string>
 </resources>

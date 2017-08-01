@@ -11,13 +11,58 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
   <string name="changelog">Log perubahan</string>
+  <string name="changelog_loading">Memuat log perubahan...</string>
+  <string name="changelog_error">Kesalahan memuat log perubahan</string>
+  <string name="changelog_not_available">Log perubahan tidak tersedia</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Setelan</string>
+  <string name="download_folder_title">Folder unduhan</string>
   <!-- Main section -->
+  <string name="updates_category_title">Versi terbaru (tekan untuk melihat log perubahan)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Tambahan</string>
+  <string name="developer_info_title">Pengelola</string>
+  <string name="donate_info_title">Donasi</string>
+  <string name="donate_info_summary">Belikan aku secangkir kopi</string>
+  <string name="website_info_title">Forum</string>
+  <string name="website_info_summary">Lihat topik XDA</string>
+  <string name="error_open_url">Gagal membuka URL pada browser</string>
+  <string name="addons_title">Pengaya</string>
+  <string name="addons_summary">File-file berguna</string>
   <!-- Addons -->
+  <string name="addons_error">Gagal memuat daftar pengaya</string>
   <!-- MD5 -->
+  <string name="checking_md5">Memeriksa has...</string>
+  <string name="md5_failed_dialog_title">Verifikasi hash</string>
+  <string name="md5_failed_dialog_message">Verifikasi hash gagal, apakah anda ingin melanjutkan?</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">Harap berikan izin penyimpanan untuk melanjutkan</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">Restart ke mode pemulihan</string>
+  <string name="restart_recovery_dialog_message">Apakah anda yakin ingin restart?</string>
+  <string name="restart_recovery_error_message">Tidak dapat restart, harap periksa akses root</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA tak diatur, harap hubungi pengelola ROM.</string>
   <!-- Install -->
+  <string name="install_title">Pasang</string>
+  <string name="checking_root">Memeriksa akses root...</string>
+  <string name="available_reboot_manual_title">Akses root tak ditemukan</string>
+  <string name="available_reboot_manual_message">Harap reboot ke pemulihan dan pasang secara manual.\n\nAnda dapat menemukan file zip ROM pada folder ViperOTA.</string>
+  <string name="fab_add_file_title">Tambah file</string>
+  <string name="fab_remove_all_files_title">Bersihkan semua file</string>
+  <string name="fab_wipe_title">Pilihan penghapusan</string>
+  <string name="fab_install_title">Reboot ke pemulihan dan pasang</string>
+  <string name="wipe_cache">Penghapusan cache</string>
+  <string name="wipe_dalvik">Penghapusan dalvik cache</string>
+  <string name="wipe_data">Penghapusan data</string>
+  <string name="delete_file_dialog_title">Hapus file</string>
+  <string name="delete_file_dialog_message">Apakah anda yakin ingin menghapus file ini dari daftar?</string>
+  <string name="file_not_allowed">Hanya file zip yang boleh</string>
+  <string name="file_get_path_error">Tidak dapat menemukan lokasi file</string>
+  <string name="no_files">Tidak ada file ditambahkan. Anda dapat menambahkan sebuah file dengan mengklik tombol \'+\'</string>
+  <string name="please_wait">Harap tunggu ...</string>
+  <string name="copy_progress">Menyalin %1$ ...</string>
+  <string name="copy_failed">Gagal menyalin %1$.\n\nPastikan peragkat punya cukup penyimpanan dan aplikasi tersebut punya izin akses untuk mengubah.</string>
+  <string name="install_dialog_message">Apakah anda yakin ingin meneruskan? Ini berhasil pada TWRP dan beberapa pemulihan CWM khusus (bukan resmi).\n\nAkses root diperlukan.</string>
+  <string name="install_write_ors_failed_dialog_message">Gagal untuk mengubah skrip pemulihan, apakah anda ingin reboot dan memasang secara manual?</string>
 </resources>

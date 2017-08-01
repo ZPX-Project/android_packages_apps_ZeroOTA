@@ -13,14 +13,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Updater</string>
-  <string name="display_name">Updates</string>
-  <string name="unknown">Unbekannt</string>
+  <string name="display_name">Updater</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Aktualisieren</string>
   <string name="menu_delete_all">Downloads löschen</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <string name="dialog_cancel">Abbrechen</string>
-  <string name="dialog_update">Update</string>
+  <string name="dialog_update">Aktualisieren</string>
   <string name="dialog_close">Schließen</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Verfügbare Updates</string>
@@ -57,7 +56,6 @@
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery-System, anderenfalls muss das Update manuell installiert werden.</string>
   <string name="apply_unable_to_reboot_toast">Neustart in den Recovery-Modus nicht möglich</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Datei löschen</string>
   <string name="confirm_delete_dialog_title_tv">Berühren, um alle heruntergeladenen Updates aus dem internen Speicher zu löschen</string>
   <string name="confirm_delete_dialog_message">Soll die ausgewählte Update-Datei gelöscht werden?</string>
   <string name="confirm_delete_all_dialog_message">Sollen alle heruntergeladenen Update-Dateien gelöscht werden?</string>

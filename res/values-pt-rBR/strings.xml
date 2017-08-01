@@ -14,11 +14,11 @@
   <!-- General strings -->
   <string name="app_name">Atualizações ViperOS</string>
   <string name="display_name">Atualizações ViperOS</string>
-  <string name="unknown">Desconhecido</string>
+  <string name="unknown">Desconhecida</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Atualizar</string>
   <string name="menu_delete_all">Excluir downloads</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_update">Atualizar</string>
   <string name="dialog_close">Fechar</string>
@@ -57,7 +57,7 @@
   <string name="apply_update_dialog_text">Você está prestes a atualizar para <xliff:g id="filename">%s</xliff:g>.\n\nAo clicar em Atualizar, o dispositivo reiniciará no modo de Recuperação e instalará a atualização automaticamente.\n\nObservação: esta função requer uma Recuperação compatível, senão as atualizações terão que ser instaladas manualmente.</string>
   <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar na recuperação</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Excluir arquivo</string>
+  <string name="confirm_delete_dialog_title">Deletar arquivo</string>
   <string name="confirm_delete_dialog_title_tv">Clique para remover todas as atualizações baixadas que estão no armazenamento interno</string>
   <string name="confirm_delete_dialog_message">Excluir o arquivo de atualização selecionado?</string>
   <string name="confirm_delete_all_dialog_message">Excluir todos os arquivos de atualização baixados?</string>

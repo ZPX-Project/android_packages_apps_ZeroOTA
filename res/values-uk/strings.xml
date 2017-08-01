@@ -14,13 +14,13 @@
   <!-- General strings -->
   <string name="app_name">Оновлення</string>
   <string name="display_name">Оновлення</string>
-  <string name="unknown">Невідомий</string>
+  <string name="unknown">Невідома</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Оновити</string>
   <string name="menu_delete_all">Видалити завантаження</string>
-  <string name="dialog_ok">ОК</string>
+  <string name="dialog_ok">Добре</string>
   <string name="dialog_cancel">Скасувати</string>
-  <string name="dialog_update">Оновити</string>
+  <string name="dialog_update">Оновлення</string>
   <string name="dialog_close">Закрити</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Доступні оновлення</string>
@@ -57,7 +57,6 @@
   <string name="apply_update_dialog_text">Ви збираєтесь оновитись на <xliff:g id="filename">%s</xliff:g>.\n\nЯкщо Ви натиснете Оновити, пристрій перезавантажиться у Recovery для встановлення.\n\nЗамітка: ця функція потребує сумісне Recovery, в зворотньому випадку оновлення необхідно встановити вручну.</string>
   <string name="apply_unable_to_reboot_toast">Неможливо перезавантажитись у Recovery</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Видалити файл</string>
   <string name="confirm_delete_dialog_title_tv">Натисніть, щоб видалити всі завантажені оновлення з вбудованого сховища</string>
   <string name="confirm_delete_dialog_message">Ви збираєтесь видалити завантажений файл оновлення. Натисніть Так для продовження.</string>
   <string name="confirm_delete_all_dialog_message">Ви збираєтесь видалити всі завантажені файли оновлення. Натисніть Так для продовження.</string>
@@ -77,5 +76,5 @@
   <string name="type_completing">Завершення</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Завантажити</string>
-  <string name="install_button">Встановити</string>
+  <string name="install_button">Установити</string>
 </resources>

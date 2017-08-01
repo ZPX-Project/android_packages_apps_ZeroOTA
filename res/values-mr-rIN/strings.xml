@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">अपडेटस</string>
-  <string name="unknown">अज्ञात</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">रीफ्रेश करा</string>
   <string name="menu_delete_all">डाउनलोड्स हटवा</string>
-  <string name="dialog_ok">ठीक आहे</string>
-  <string name="dialog_cancel">रद्द करा</string>
-  <string name="dialog_update">अपडेट</string>
   <string name="dialog_close">बंद करा</string>
   <!-- Settings strings -->
   <string name="available_updates_title">उपलब्ध अपडेट</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">तुम्ही <xliff:g id="filename">%s</xliff:g>ला अपडेट करणार आहात.\n\nतुम्ही अपडेट दाबल्यास, अपडेट स्थापित करण्यासाठी डिव्हाइस आपले आपण पुनर्प्राप्ती मोडमध्ये पुन्हा सुरू होईल.\n\nटीप: ह्या वैशिष्ट्याला एक कम्पॅटिबल पुनर्प्राप्ती आवश्यक आहे किंवा अद्यतने व्यक्तिचलितपणे स्थापित करणे आवश्यक असेल.</string>
   <string name="apply_unable_to_reboot_toast">पुनर्प्राप्तीमध्ये रीबूट करण्यात अक्षम</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">फाइल हटवा</string>
   <string name="confirm_delete_dialog_title_tv">सर्व डाउनलोड केलेली अपडेट अंतर्गत संग्रहावरून काढण्यासाठी क्लिक करा</string>
   <string name="confirm_delete_dialog_message">निवडलेली अपडेट फाइल हटवायची?</string>
   <string name="confirm_delete_all_dialog_message">सर्व डाउनलोड केलेल्या अपडेट फाइल्स हटवायच्या?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">सर्व डाउनलोड केलेली अपडेटस हटवली गेली</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">डाउनलोड करा</string>
 </resources>

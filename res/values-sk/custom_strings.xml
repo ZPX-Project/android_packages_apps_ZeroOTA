@@ -10,13 +10,59 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Zoznam zmien</string>
+  <string name="changelog_loading">Načítavanie zoznamu zmien...</string>
+  <string name="changelog_error">Chyba pri načítavaní zoznamu zmien</string>
+  <string name="changelog_not_available">Zoznam zmien nie je k dispozícii</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Nastavenia</string>
+  <string name="download_folder_title">Priečinok pre preberanie</string>
   <!-- Main section -->
+  <string name="updates_category_title">Najnovšia verzia (kliknutím zobrazíte zoznam zmien)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Doplnky</string>
+  <string name="developer_info_title">Správcovia</string>
+  <string name="donate_info_title">Prispejte</string>
+  <string name="donate_info_summary">Kúpte mi kávu</string>
+  <string name="website_info_title">Fórum</string>
+  <string name="website_info_summary">Zobraziť XDA vlákno</string>
+  <string name="error_open_url">Nepodarilo sa otvoriť adresu URL v prehliadači</string>
+  <string name="addons_title">Doplnky</string>
+  <string name="addons_summary">Užitočné súbory</string>
   <!-- Addons -->
+  <string name="addons_error">Zlyhalo načítanie zoznamu doplnkov</string>
   <!-- MD5 -->
+  <string name="checking_md5">Kontrola hašu...</string>
+  <string name="md5_failed_dialog_title">Overovanie hašu</string>
+  <string name="md5_failed_dialog_message">Overenie hašu zlyhalo, chcete pokračovať?</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">Pre pokračovanie udeľte oprávnenia k úložisku</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">Reštartovať do režimu Recovery</string>
+  <string name="restart_recovery_dialog_message">Naozaj chcete reštartovať?</string>
+  <string name="restart_recovery_error_message">Nie je možné reštartovať, prosím skontrolujte prístup root</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA nie je nakonfigurované, kontaktujte prosím správcu ROM.</string>
   <!-- Install -->
+  <string name="install_title">Nainštalovať</string>
+  <string name="checking_root">Kontrola root oprávnení...</string>
+  <string name="available_reboot_manual_title">Root prístup nebol nájdený</string>
+  <string name="available_reboot_manual_message">Reštartujte do recovery a nainštalujte ručne.\n\nSúbor zip s ROM nájdete v priečinku ViperOTA.</string>
+  <string name="fab_add_file_title">Pridať súbor</string>
+  <string name="fab_remove_all_files_title">Odstrániť všetky súbory</string>
+  <string name="fab_wipe_title">Vymazať možnosti</string>
+  <string name="fab_install_title">Reštartujte do recovery a súbor nainštalujte</string>
+  <string name="wipe_cache">Vymazať Cache</string>
+  <string name="wipe_dalvik">Vymazať Dalvik Cache</string>
+  <string name="wipe_data">Vymazať dáta</string>
+  <string name="delete_file_dialog_title">Vymazať súbor</string>
+  <string name="delete_file_dialog_message">Naozaj chcete odstrániť tento súbor zo zoznamu?</string>
+  <string name="file_not_allowed">Povolené sú iba ZIP súbory</string>
+  <string name="file_get_path_error">Nepodarilo sa nájsť cestu k súboru</string>
+  <string name="no_files">Neboli pridané žiadne súbory. Súbor môžete pridať kliknutím na tlačidlo \'+\'</string>
+  <string name="please_wait">Prosím, čakajte...</string>
+  <string name="copy_progress">Kopírovanie %1$s...</string>
+  <string name="copy_failed">Kopírovanie %1$s zlyhalo.\n\nSkontrolujte, či má zariadenie dostatočné množstvo voľného miesta a či má aplikácia povolenie na zápis.</string>
+  <string name="install_dialog_message">Naozaj chcete pokračovať? Toto funguje iba v TWRP a niektorých CWM (neoficiálne) recovery.\n\nPožaduje sa root prístup.</string>
+  <string name="install_write_ors_failed_dialog_message">Nepodarilo sa zapísať recovery script. Chcete reštartovať a nainštalovať ručne?</string>
 </resources>

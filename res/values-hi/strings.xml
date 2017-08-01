@@ -12,14 +12,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">अद्यतन</string>
-  <string name="unknown">अज्ञात</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">ताज़ा करें</string>
   <string name="menu_delete_all">डाउनलोडों को हटाएँ</string>
-  <string name="dialog_ok">ठीक है</string>
-  <string name="dialog_cancel">रद्द करें</string>
-  <string name="dialog_update">अद्यतन करें</string>
+  <string name="dialog_ok">Okay</string>
+  <string name="dialog_update">अपडेट करें</string>
   <string name="dialog_close">बंद करें</string>
   <!-- Settings strings -->
   <string name="available_updates_title">उपलब्ध अद्यतन</string>
@@ -53,7 +50,6 @@
   <string name="apply_update_dialog_text">आप <xliff:g id="filename">%s</xliff:g> में अद्यतन करने जा रहे हैं।\n\nयदि आप अद्यतन को दबाएँगे, तो उपकरण अद्यतन को स्थापित करने के लिए रिकवरी मोड में रीस्टार्ट करेगा।\n\nटिप्पणी: इस सुविधा के लिए संगत रिकवरी की आवश्यकता है, अन्यथा आपको स्वयं अद्यतनों को स्थापित करना पड़ेगा।</string>
   <string name="apply_unable_to_reboot_toast">रिकवरी में बूट करने में असमर्थ</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">फ़ाइल को हटाएँ</string>
   <string name="confirm_delete_dialog_title_tv">आंतरिक भंडारण से डाउनलोड किए गए सभी अद्यतनों को हटाने के लिए क्लिक करें</string>
   <string name="confirm_delete_dialog_message">चयनित अद्यतन फ़ाइल को हटा दें?</string>
   <string name="confirm_delete_all_dialog_message">डाउनलोड की गई सभी अद्यतन फ़ाइलों को हटा दें?</string>
@@ -63,4 +59,5 @@
   <string name="delete_updates_success_message">डाउनलोड किए गए सभी अद्यतनों को हटा दिया गया</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">डाउनलोड करें</string>
 </resources>

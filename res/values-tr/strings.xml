@@ -13,13 +13,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Güncelleyici</string>
-  <string name="display_name">Güncellemeler</string>
-  <string name="unknown">Bilinmeyen</string>
+  <string name="display_name">Güncelleyici</string>
+  <string name="unknown">Bilinmiyor</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Yenile</string>
   <string name="menu_delete_all">İndirilenleri sil</string>
   <string name="dialog_ok">Tamam</string>
-  <string name="dialog_cancel">İptal</string>
+  <string name="dialog_cancel">Vazgeç</string>
   <string name="dialog_update">Güncelle</string>
   <string name="dialog_close">Kapat</string>
   <!-- Settings strings -->
@@ -57,7 +57,6 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>
   <string name="apply_unable_to_reboot_toast">Kurtarma modu için sistem yeniden başlatılamadı</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Dosya sil</string>
   <string name="confirm_delete_dialog_title_tv">İndirilen tüm güncellemeleri dahili bellekten kaldırmak için tıklayın</string>
   <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
   <string name="confirm_delete_all_dialog_message">İndirilen tüm güncelleme dosyalarını silmek istiyor musunuz?</string>
@@ -77,5 +76,4 @@
   <string name="type_completing">• Tamamlanıyor</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">İndir</string>
-  <string name="install_button">Yükle</string>
 </resources>

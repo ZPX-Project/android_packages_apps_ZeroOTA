@@ -11,6 +11,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
   <!-- Settings section -->
+  <string name="settings_category_title">Ayarlar</string>
   <!-- Main section -->
   <!-- Info section -->
   <!-- Addons -->
@@ -19,4 +20,7 @@
   <!-- Restart recovery -->
   <!-- OTA not configured -->
   <!-- Install -->
+  <string name="file_not_allowed">Sadece zip dosyalarına izin verilir</string>
+  <string name="file_get_path_error">Dosya yolu bulunamadı</string>
+  <string name="please_wait">Lütfen bekleyin...</string>
 </resources>

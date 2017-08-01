@@ -13,14 +13,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Päivitys</string>
-  <string name="display_name">Päivitykset</string>
-  <string name="unknown">Tuntematon</string>
+  <string name="display_name">Päivitys</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Päivitä</string>
   <string name="menu_delete_all">Poista lataukset</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Peruuta</string>
-  <string name="dialog_update">Päivitä</string>
+  <string name="dialog_ok">Okei</string>
   <string name="dialog_close">Sulje</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Saatavilla olevat päivitykset</string>
@@ -57,7 +54,6 @@
   <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
   <string name="apply_unable_to_reboot_toast">Recovery-tilaan käynnistäminen epäonnistui</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Poista tiedosto</string>
   <string name="confirm_delete_dialog_title_tv">Paina poistaaksesi kaikki ladatut päivitykset sisäisestä tallennustilasta</string>
   <string name="confirm_delete_dialog_message">Poista valittu päivitystiedosto?</string>
   <string name="confirm_delete_all_dialog_message">Poista kaikki ladatut päivitystiedostot?</string>
@@ -77,5 +73,4 @@
   <string name="type_completing">• Valmistellaan</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Lataa</string>
-  <string name="install_button">Asenna</string>
 </resources>

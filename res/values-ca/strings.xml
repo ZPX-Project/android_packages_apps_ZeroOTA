@@ -13,13 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Actualitzador</string>
-  <string name="display_name">Actualitzacions</string>
-  <string name="unknown">Desconegut</string>
+  <string name="display_name">Actualitzador</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Refresca</string>
   <string name="menu_delete_all">Esborra baixades</string>
-  <string name="dialog_ok">D\'acord</string>
-  <string name="dialog_cancel">Cancel·la</string>
   <string name="dialog_update">Actualitza</string>
   <string name="dialog_close">Tanca</string>
   <!-- Settings strings -->
@@ -57,7 +54,6 @@
   <string name="apply_update_dialog_text">Estàs a punt d\'actualitzar a <xliff:g id="filename">%s</xliff:g>.\n\nSi apretes Actualitza, el dispositiu es reiniciarà ell mateix cap al mode de recuperació per tal d\'instal·lar l\'actualització.\n\nNota: Aquesta característica necessita un sistema de recuperació (Recovery) compatible o l\'actualització haurà de ser instal·lada manualment.</string>
   <string name="apply_unable_to_reboot_toast">Impossible reiniciar en mode recuperació</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Esborra fitxer</string>
   <string name="confirm_delete_dialog_title_tv">Clica per eliminar totes les actualitzacions baixades de l\'emmagatzematge intern</string>
   <string name="confirm_delete_dialog_message">Vols esborrar el fitxer d\'actualització seleccionat?</string>
   <string name="confirm_delete_all_dialog_message">Vols esborrar tots els fitxers d\'actualitzacions baixats?</string>
@@ -77,5 +73,4 @@
   <string name="type_completing">• S\'està completant</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Baixa</string>
-  <string name="install_button">Instal·la</string>
 </resources>

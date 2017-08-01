@@ -16,12 +16,53 @@
   <string name="changelog_not_available">Registro de cambios no disponible</string>
   <!-- Settings section -->
   <string name="settings_category_title">Ajustes</string>
+  <string name="download_folder_title">Carpeta de descargas</string>
   <!-- Main section -->
+  <string name="updates_category_title">Última versión (toca para ver los cambios)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Extras</string>
+  <string name="developer_info_title">Mantenedor(es)</string>
+  <string name="donate_info_title">Donar</string>
+  <string name="donate_info_summary">Invítame a un café</string>
+  <string name="website_info_title">Foro</string>
+  <string name="website_info_summary">Ver hilo de XDA</string>
+  <string name="error_open_url">Error al abrir la URL en el navegador</string>
+  <string name="addons_title">Complementos</string>
+  <string name="addons_summary">Archivos útiles</string>
   <!-- Addons -->
+  <string name="addons_error">Fallo al cargar la lista de complementos</string>
   <!-- MD5 -->
+  <string name="checking_md5">Comprobando hash...</string>
+  <string name="md5_failed_dialog_title">Verificación de hash</string>
+  <string name="md5_failed_dialog_message">La verificación de hash ha fallado, ¿quieres continuar?</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">Por favor, concede acceso al almacenamiento para continuar</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">Reiniciar en modo Recuperación</string>
+  <string name="restart_recovery_dialog_message">Estás seguro de que quieres reiniciar?</string>
+  <string name="restart_recovery_error_message">No se ha podido reiniciar, comprueba el acceso root</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA no configurada. Por favor, ponte en contacto con el mantenedor de la ROM.</string>
   <!-- Install -->
+  <string name="install_title">Instalar</string>
+  <string name="checking_root">Comprobando acceso root...</string>
+  <string name="available_reboot_manual_title">Acceso root no encontrado</string>
+  <string name="available_reboot_manual_message">Por favor, reinicia en modo Recuperación y instálalo manualmente. Puedes encontrar la ROM en zip en la carpeta de ViperOTA.</string>
+  <string name="fab_add_file_title">Añadir archivo</string>
+  <string name="fab_remove_all_files_title">Eliminar todos los archivos</string>
+  <string name="fab_wipe_title">Opciones de formateo</string>
+  <string name="fab_install_title">Reinicie en modo Recuperación e instálelo</string>
+  <string name="wipe_cache">Vaciar caché</string>
+  <string name="wipe_dalvik">Vaciar caché Dalvik</string>
+  <string name="wipe_data">Eliminar datos</string>
+  <string name="delete_file_dialog_title">Eliminar archivo</string>
+  <string name="delete_file_dialog_message">¿Estás seguro de que deseas eliminar este archivo de la lista?</string>
+  <string name="file_not_allowed">Sólo se permiten archivos zip</string>
+  <string name="file_get_path_error">No se ha podido encontrar la ruta del archivo</string>
+  <string name="no_files">No se han añadido archivos. Puedes añadir un archivo pulsando en el botón \'+\'</string>
+  <string name="please_wait">Por favor, espere...</string>
+  <string name="copy_progress">Copiando %1$s ...</string>
+  <string name="copy_failed">Error al copiar %1$s. \n\nAsegúrate de que el dispositivi tiene sufiente espacio de almacenamiento y que la aplicación dispone de permisos de escritura.</string>
+  <string name="install_dialog_message">¿Estás seguro de que deseas continuar? Este proceso funciona en TWRP y en algún recovery CWM (no oficiales). \n\nSe requiere acceso root.</string>
+  <string name="install_write_ors_failed_dialog_message">Error al escribir secuencias de comandos de recuperación, ¿desea reiniciar e instalar manualmente?</string>
 </resources>

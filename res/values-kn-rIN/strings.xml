@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">ನವೀಕರಣೆಗಳು</string>
-  <string name="unknown">ಅಜ್ಞಾತ</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">ರಿಫ್ರೆಶ್</string>
   <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸು</string>
-  <string name="dialog_ok">ಆಯ್ತು</string>
-  <string name="dialog_cancel">ರದ್ದು</string>
-  <string name="dialog_update">ನವೀಕರಿಸು</string>
   <string name="dialog_close">ಮುಚ್ಚು</string>
   <!-- Settings strings -->
   <string name="available_updates_title">ಲಭ್ಯವಿರುವ ನವೀಕರಣೆಗಳು</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">ನೀವು ಈಗ <xliff:g id="filename">%s</xliff:g>ಗೆ ಅಪ್‍ಗ್ರೇಡ್ ಮಾಡಲು ಹೋಗುತ್ತಿದ್ದೀರಿ.\n\nನೀವು ನವೀಕರಿಸು ಒತ್ತಿದರೆ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಿಕವರಿ ಮೂಡ್‍ಗೆ ರೀಸ್ಟಾರ್ಟ್ ಆಗುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ರಿಕವರಿಯ ಅಗತ್ಯವಿದೆ ಇಲ್ಲವಾದರೆ ನವೀಕರಣೆಯನ್ನು ನೀವೇ ಸ್ವತಃ ಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ.</string>
   <string name="apply_unable_to_reboot_toast">ರಿಕವರಿಗೆ ರಿಬೂಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ಕಡತವನ್ನು ಅಳಿಸು</string>
   <string name="confirm_delete_dialog_title_tv">ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾದ ಎಲ್ಲಾ ನವೀಕರಣೆಗಳನ್ನು ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಯಿಂದ ಅಳಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
   <string name="confirm_delete_dialog_message">ಆಯ್ಕೆಮಾಡಿದ ನವೀಕರಣೆ ಕಡತ ಅಳಿಸುವುದೇ?</string>
   <string name="confirm_delete_all_dialog_message">ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ಎಲ್ಲಾ ನವೀಕರಣೆ ಕಡತಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">ಎಲ್ಲಾ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ನವೀಕರಣೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">ಡೌನ್‍ಲೋಡ್</string>
 </resources>

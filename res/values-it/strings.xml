@@ -18,7 +18,7 @@
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Aggiorna</string>
   <string name="menu_delete_all">Elimina i download</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <string name="dialog_cancel">Annulla</string>
   <string name="dialog_update">Aggiorna</string>
   <string name="dialog_close">Chiudi</string>

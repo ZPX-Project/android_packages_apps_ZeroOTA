@@ -12,13 +12,57 @@
   <!-- Changelog -->
   <string name="changelog">Seznam změn</string>
   <string name="changelog_loading">Načítá se seznam změn...</string>
+  <string name="changelog_error">Chyba načítání seznamu změn</string>
+  <string name="changelog_not_available">Seznam změn není k dispozici</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Nastavení</string>
+  <string name="download_folder_title">Složka pro stahování</string>
   <!-- Main section -->
+  <string name="updates_category_title">Nejnovější verze (Klepnutím zobrazíte seznam změn)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Doplňky</string>
+  <string name="developer_info_title">Správci</string>
+  <string name="donate_info_title">Přispět</string>
+  <string name="donate_info_summary">Kupte mi kávu</string>
+  <string name="website_info_title">Fórum</string>
+  <string name="website_info_summary">Zobrazit vlákno XDA</string>
+  <string name="error_open_url">Nepodařilo se otevřít adresu URL v prohlížeči</string>
+  <string name="addons_title">Doplňky</string>
+  <string name="addons_summary">Užitečné soubory</string>
   <!-- Addons -->
+  <string name="addons_error">Nepovedlo se načíst seznam doplňků</string>
   <!-- MD5 -->
+  <string name="checking_md5">Kontrola algoritmu hash...</string>
+  <string name="md5_failed_dialog_title">Ověření algoritmu hash</string>
+  <string name="md5_failed_dialog_message">Ověření algoritmu hash selhalo, chcete pokračovat?</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">Pro pokračování udělte oprávnění úložišti</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">Restartovat do režimu recovery</string>
+  <string name="restart_recovery_dialog_message">Opravdu chcete restartovat?</string>
+  <string name="restart_recovery_error_message">Nelze restartovat, prosím zkontrolujte přístup root</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA není nakonfigurováno, kontaktujte prosím správce ROM.</string>
   <!-- Install -->
+  <string name="install_title">Instalovat</string>
+  <string name="checking_root">Kontroluji root přístup...</string>
+  <string name="available_reboot_manual_title">Root přístup nebyl nalezen</string>
+  <string name="available_reboot_manual_message">Restartujte do recovery a instalujte ručně.\n\nSoubor zip ROM naleznete ve složce ViperOTA.</string>
+  <string name="fab_add_file_title">Přidat soubor</string>
+  <string name="fab_remove_all_files_title">Odstranit všechny soubory</string>
+  <string name="fab_wipe_title">Vymazat možnosti</string>
+  <string name="fab_install_title">Restartujte do recovery instalujte</string>
+  <string name="wipe_cache">Vymazat cache</string>
+  <string name="wipe_dalvik">Vymazat Dalvik Cache</string>
+  <string name="wipe_data">Vymazat data</string>
+  <string name="delete_file_dialog_title">Smazat soubor</string>
+  <string name="delete_file_dialog_message">Jste si jisti, že chcete odstranit tento soubor ze seznamu?</string>
+  <string name="file_not_allowed">Jsou povoleny pouze zip soubory</string>
+  <string name="file_get_path_error">Nelze nalézt cestu k souboru</string>
+  <string name="no_files">Žádné soubory nebyly přidány. Soubor můžete přidat kliknutím na tlačítko \'+\'</string>
+  <string name="please_wait">Počkejte prosím ...</string>
+  <string name="copy_progress">Kopírování %1$s ...</string>
+  <string name="copy_failed">Kopírování %1$s se nezdařilo.\n\nZkontrolujte, zda má zařízení dostatečné množství volného místa a zda má aplikace oprávnění k zápisu.</string>
+  <string name="install_dialog_message">Opravdu chcete pokračovat? Toto funguje v TWRP a některém CWM (neoficiálním) recovery.\n\nJe vyžadován root přístup.</string>
+  <string name="install_write_ors_failed_dialog_message">Nepodařilo se zapsat recovery skript. Chcete restartovat a instalovat ručně?</string>
 </resources>

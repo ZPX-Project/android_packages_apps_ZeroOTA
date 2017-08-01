@@ -12,17 +12,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">更新</string>
-  <string name="unknown">不明</string>
+  <string name="app_name">更新工具</string>
+  <string name="display_name">更新工具</string>
+  <string name="unknown">未知的</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">重新整理</string>
   <string name="menu_delete_all">刪除下載項目</string>
-  <string name="dialog_ok">確定</string>
+  <string name="dialog_ok">可以了</string>
   <string name="dialog_cancel">取消</string>
   <string name="dialog_update">更新</string>
   <string name="dialog_close">關閉</string>
   <!-- Settings strings -->
   <string name="available_updates_title">可用的更新</string>
+  <string name="no_available_updates_intro">未找到新的更新。若要手動檢查新的更新，請使用 [重新整理] 按鍵。</string>
   <string name="update_check_title">檢查更新</string>
   <string name="check_manual">手動</string>
   <string name="check_daily">每天</string>
@@ -42,18 +44,19 @@
   <string name="confirm_download_cancelation_dialog_message">取消目前的下載？</string>
   <string name="download_cancelled">下載已取消</string>
   <string name="download_already_running">已經有一個下載在執行</string>
+  <string name="unable_to_stop_download">無法停止下載</string>
   <string name="unable_to_download_file">無法下載更新檔案</string>
   <string name="download_not_found">找不到下載項目</string>
   <string name="not_download_success">更新已成功下載</string>
   <string name="not_download_failure">更新下載失敗</string>
   <string name="not_action_install_update">重新啟動並安裝</string>
   <string name="not_download_install_notice">更新檔 <xliff:g id="filename">%s</xliff:g> 已成功下載。 當輕觸「重新啟動並安裝」時， 該裝置將重新啟動安裝更新。\n\n注意：執行自動安裝需要一個相容的修復 (Recovery) 程式。</string>
+  <string name="verification_failed">驗證失敗。已損壞或不安全下載</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">套用更新</string>
   <string name="apply_update_dialog_text">您將升級到<xliff:g id="filename">%s</xliff:g>。\n\n如果您按下更新，裝置將自動重新啟動修復模式 (Recovery) 下安裝更新。\n\n注意：此功能需要一個兼容的修復模式 (Recovery)，否則將會需要手動安裝更新。</string>
   <string name="apply_unable_to_reboot_toast">無法重啟進入修復 (Recovery) 模式</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">刪除檔案</string>
   <string name="confirm_delete_dialog_title_tv">按下即可從內部儲存空間移除所有已下載的更新</string>
   <string name="confirm_delete_dialog_message">刪除已選取的更新檔案?</string>
   <string name="confirm_delete_all_dialog_message">刪除所有下載的更新檔案?</string>
@@ -62,5 +65,15 @@
   <string name="delete_updates_noFolder_message">找不到更新資料夾</string>
   <string name="delete_updates_success_message">已刪除所有已下載的更新</string>
   <!-- Header -->
+  <string name="header_os">ViperOS
+\n%1$s</string>
+  <string name="header_summary">%1$s\n%2$s • Android %3$s\n%4$s</string>
+  <string name="sysinfo_last_check">上次檢查的時間</string>
   <!-- Build item -->
+  <string name="type_installed">• 已安裝</string>
+  <string name="type_downloaded">• 已下載</string>
+  <string name="type_downloading">• 下載中</string>
+  <string name="type_completing">• 完成中</string>
+  <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
+  <string name="download_button">下載</string>
 </resources>

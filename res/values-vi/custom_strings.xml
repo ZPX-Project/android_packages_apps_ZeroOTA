@@ -10,13 +10,59 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Nhật kí cập nhật</string>
+  <string name="changelog_loading">Đang nạp các thay đổi...</string>
+  <string name="changelog_error">Lỗi tải changelog</string>
+  <string name="changelog_not_available">Thay đổi không có sẵn</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Cài đặt dịch vụ</string>
+  <string name="download_folder_title">Thư mục tải xuống</string>
   <!-- Main section -->
+  <string name="updates_category_title">Phiên bản mới nhất (tap Xem changelog)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Tính năng bổ xung</string>
+  <string name="developer_info_title">Nhà bảo trì</string>
+  <string name="donate_info_title">Ủng hộ</string>
+  <string name="donate_info_summary">Mua cho tôi một coffe</string>
+  <string name="website_info_title">Diễn đàn</string>
+  <string name="website_info_summary">Xem XDA thread</string>
+  <string name="error_open_url">Không thể mở URL trong trình duyệt</string>
+  <string name="addons_title">Addons</string>
+  <string name="addons_summary">Tập tin hữu ích</string>
   <!-- Addons -->
+  <string name="addons_error">Thất bại trong việc tải danh sách addons</string>
   <!-- MD5 -->
+  <string name="checking_md5">Đang kiểm tra băm...</string>
+  <string name="md5_failed_dialog_title">Hash xác minh</string>
+  <string name="md5_failed_dialog_message">Hash xác minh đã thất bại, bạn có muốn tiếp tục?</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">Xin vui lòng cho phép lưu trữ tiếp tục</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">Khởi động lại vào chế độ phục hồi</string>
+  <string name="restart_recovery_dialog_message">Có chắc bạn muốn khởi động lại?</string>
+  <string name="restart_recovery_error_message">Có thể không khởi động lại, xin vui lòng kiểm tra quyền truy cập root</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA không được cấu hình, xin vui lòng liên hệ với ROM duy trì.</string>
   <!-- Install -->
+  <string name="install_title">Cài đặt</string>
+  <string name="checking_root">Kiểm tra quyền truy cập root...</string>
+  <string name="available_reboot_manual_title">Truy cập root không được cấp phép</string>
+  <string name="available_reboot_manual_message">Xin vui lòng khởi động lại để khôi phục và cài đặt manually.\n\nYou có thể tìm thấy file ROM zip trong thư mục ViperOTA.</string>
+  <string name="fab_add_file_title">Thêm tập tin</string>
+  <string name="fab_remove_all_files_title">Loại bỏ tất cả các tập tin</string>
+  <string name="fab_wipe_title">Xóa lựa chọn</string>
+  <string name="fab_install_title">Khởi động lại để khôi phục và cài đặt</string>
+  <string name="wipe_cache">Xóa bộ nhớ cache</string>
+  <string name="wipe_dalvik">Xóa Dalvik Cache</string>
+  <string name="wipe_data">Xoá sạch dữ liệu</string>
+  <string name="delete_file_dialog_title">Xóa tập tin</string>
+  <string name="delete_file_dialog_message">Bạn có chắn chắn muốn xóa nguồn cấp dữ liệu này khỏi danh sách không?</string>
+  <string name="file_not_allowed">Chỉ những tập tin zip được phép</string>
+  <string name="file_get_path_error">Không thể tìm thấy trang</string>
+  <string name="no_files">Không có tệp nào được thêm vào. Bạn có thể thêm một tập tin bằng cách nhấp vào \' +\' button</string>
+  <string name="please_wait">Vui lòng chờ...</string>
+  <string name="copy_progress">Sao chép %1$s...</string>
+  <string name="copy_failed">Không sao chép %1$s.\n\nMake chắc chắn rằng các thiết bị có đủ lưu trữ và các ứng dụng có quyền ghi.</string>
+  <string name="install_dialog_message">Bạn có chắc bạn muốn tiếp tục không? Điều này làm việc trên TWRP và một số quyền truy cập tuỳ chỉnh recoveries.\n\nRoot CWM (không chính thức) là bắt buộc.</string>
+  <string name="install_write_ors_failed_dialog_message">Thất bại trong việc viết kịch bản phục hồi, bạn có muốn khởi động lại và cài đặt theo cách thủ công?</string>
 </resources>

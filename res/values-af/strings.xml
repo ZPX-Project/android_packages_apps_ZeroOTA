@@ -13,14 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Bywerker</string>
-  <string name="display_name">Opgraderings</string>
-  <string name="unknown">Onbekend</string>
+  <string name="display_name">Bywerker</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Herlaai</string>
   <string name="menu_delete_all">Verwyder alles</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Kanselleer</string>
-  <string name="dialog_update">Opgradeer</string>
   <string name="dialog_close">Sluit</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Beskikbare opgraderings</string>
@@ -57,7 +53,6 @@
   <string name="apply_update_dialog_text">Die toestel gaan opgegradeer word na <xliff:g id="filename">%s</xliff:g>\n\nAs u die Opgradeer knoppie druk sal die toestel self herlaai om die opgradering te installeer.\n\nLet wel: Hierdie funksie vereis \'n versoenbaare \'recovery\' andersins sal die opgradering handmatig geïnstalleer moet word</string>
   <string name="apply_unable_to_reboot_toast">Kon nie herlaai in \'recovery\' nie</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Skrap lêer</string>
   <string name="confirm_delete_dialog_title_tv">Raak om alle afgelaaide opdaterings van interne spasie te verwyder</string>
   <string name="confirm_delete_dialog_message">Die afgelaaide lêer gaan verwyder word, Ok om voort te gaan?</string>
   <string name="confirm_delete_all_dialog_message">Al die afgelaaide lêers gaan verwyder word, Ok om voort te gaan?</string>
@@ -76,5 +71,5 @@
   <string name="type_downloading">Laai tans af</string>
   <string name="type_completing">• Maak tans klaar</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="install_button">Installeer</string>
+  <string name="download_button">Laai af</string>
 </resources>

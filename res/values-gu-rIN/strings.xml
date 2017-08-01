@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">અપડેટ્સ</string>
-  <string name="unknown">અજાણ્યો</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">તાજું કરો</string>
   <string name="menu_delete_all">ડાઉનલોડસ રદ કરો</string>
-  <string name="dialog_ok">ઑકે</string>
-  <string name="dialog_cancel">રદ કરો</string>
-  <string name="dialog_update">અપડેટ કરો</string>
   <string name="dialog_close">બંધ કરો</string>
   <!-- Settings strings -->
   <string name="available_updates_title">ઉપલબ્ધ અપડેટો</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">તમે <xliff:g id="filename">%s</xliff:g>પર અપગ્રેડ કરવાની તૈયારીમાં છો.\n\nજો તમે અપડેટ પર પ્રેસ કરો તો અપડેટ ઇન્સ્ટૉલ કરવા માટે ડિવાઇસ રિકવરી મોડમાં જાતે ફરી શરૂ થશે.\n\nનોંધ: આ ફીચર માટે સુસંગત રિકવરી આવશ્યક છે નહીંતો અપડેટો મૅન્યુઅલિ ઇન્સ્ટૉલ કરવાની જરૂર પડશે.</string>
   <string name="apply_unable_to_reboot_toast">રિકવરીમાં રિબૂટ કરી શકતા નથી</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ફાઇલ રદ કરો</string>
   <string name="confirm_delete_dialog_title_tv">આંતરિક સંગ્રહમાંથી અપડેટ થયેલ તમામ ડાઉનલોડ દૂર કરવા ક્લિક કરો</string>
   <string name="confirm_delete_dialog_message">શું પસંદ કરેલ અપડેટ ફાઇલ ભૂંસવી છે?</string>
   <string name="confirm_delete_all_dialog_message">શું તમામ ડાઉનલોડ કરેલ અપડેટ ફાઇલ ભૂંસવી છે?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">તમામ ડાઉનલોડ કરેલ અપડેટ ભૂંસાઇ જશે</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">ડાઉનલોડ કરો</string>
 </resources>

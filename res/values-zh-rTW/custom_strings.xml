@@ -10,10 +10,25 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog_error">更新日誌載入錯誤</string>
+  <string name="changelog_not_available">沒有可用的更新日誌</string>
   <!-- Settings section -->
+  <string name="settings_category_title">設定</string>
+  <string name="download_folder_title">下載資料夾</string>
   <!-- Main section -->
+  <string name="updates_category_title">最新版本 （點擊查看更新日誌）</string>
   <!-- Info section -->
+  <string name="extras_category_title">附加選項</string>
+  <string name="developer_info_title">維護人員</string>
+  <string name="donate_info_title">贊助</string>
+  <string name="donate_info_summary">買杯咖啡給我</string>
+  <string name="website_info_title">論壇</string>
+  <string name="website_info_summary">查看 XDA 上的討論串</string>
+  <string name="error_open_url">在瀏覽器中打開 URL 失敗</string>
+  <string name="addons_title">附加元件</string>
+  <string name="addons_summary">有用的檔案</string>
   <!-- Addons -->
+  <string name="addons_error">載入附加元件列表失敗</string>
   <!-- MD5 -->
   <!-- Storage permission -->
   <!-- Restart recovery -->

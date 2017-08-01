@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">يېڭىلانمىلار</string>
-  <string name="unknown">يوچۇن</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">يېڭىلا</string>
   <string name="menu_delete_all">چۈشۈرگەنلەرنى ئۆچۈر</string>
-  <string name="dialog_ok">جەزملە</string>
-  <string name="dialog_cancel">ۋاز كەچ</string>
-  <string name="dialog_update">يېڭىلا</string>
   <string name="dialog_close">ياپ</string>
   <!-- Settings strings -->
   <string name="available_updates_title">ئىشلىتىلىشچان يېڭىلاشلار</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">سىز <xliff:g id="filename">%s</xliff:g> غا يېڭىلىماقچى بولۇۋاتىسىز.\n\nئەگەر يېڭىلانى چەكسىڭىز، ئۈسكۈنە ئۆزلۈكىدىن قايتا قوزغىلىپ ئەسلىگە كەلتۈرۈش ھالىتىگە كىرىپ يېڭىلاشنى ئورنىتىدۇ.\n \nدىققەت: بۇ ئىقتىدار ئۈچۈن ماسلىشىدىغان ئەسلىگە كەلتۈرگۈچ بولۇشى كېرەك ياكى يېڭىلاشنى قولدا ئورنىتىش كېرەك.</string>
   <string name="apply_unable_to_reboot_toast">ئەسلىگە قايتۇرۇش ھالىتىدە قايتا قوزغىتالمايدۇ</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ھۆججەت ئۆچۈر</string>
   <string name="confirm_delete_dialog_title_tv">چىكىپ ئىچكى ساقلانمىغا چۈشۈرۈلگەن بارلىق يېڭىلانمىلارنى ئۆچۈرۈش</string>
   <string name="confirm_delete_dialog_message">تاللانغان يېڭىلاش ھۆججىتىنى ئۆچۈرەمدۇ؟</string>
   <string name="confirm_delete_all_dialog_message">چۈشۈرگەن ھەممە يېڭىلاش ھۆججەتلىرىنى ئۆچۈرەمدۇ؟</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">ھەممە يېڭىلاشلار ئۆچۈرۈلدى</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">چۈشۈر</string>
 </resources>

@@ -14,11 +14,10 @@
   <!-- General strings -->
   <string name="app_name">Ενημερώσεις</string>
   <string name="display_name">Ενημερώσεις</string>
-  <string name="unknown">Άγνωστο</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Ανανέωση</string>
   <string name="menu_delete_all">Διαγραφή λήψεων</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Εντάξει</string>
   <string name="dialog_cancel">Ακύρωση</string>
   <string name="dialog_update">Ενημέρωση</string>
   <string name="dialog_close">Κλείσιμο</string>
@@ -57,7 +56,6 @@
   <string name="apply_update_dialog_text">Πρόκειται να αναβαθμίσετε σε <xliff:g id="filename">%s</xliff:g>.\n\nΑν πατήσετε το πλήκτρο Ενημέρωση, η συσκευή θα κάνει επανεκκίνηση σε λειτουργία recovery για να εγκαταστήσετε την ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί μια συμβατή recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>
   <string name="apply_unable_to_reboot_toast">Δεν είναι δυνατή η επανεκκίνηση σε λειτουργία recovery</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Διαγραφή αρχείου</string>
   <string name="confirm_delete_dialog_title_tv">Κάντε κλικ για να καταργήσετε όλες τις αποθηκευμένες ενημερώσεις από τον εσωτερικό αποθηκευτικό χώρο</string>
   <string name="confirm_delete_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
   <string name="confirm_delete_all_dialog_message">Διαγραφή όλων των κατεβασμένων αρχείων ενημερώσεων;</string>
@@ -76,5 +74,5 @@
   <string name="type_downloading">• Γίνεται λήψη</string>
   <string name="type_completing">• Ολοκλήρωση</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="install_button">Εγκατάσταση</string>
+  <string name="download_button">Λήψη</string>
 </resources>

@@ -13,14 +13,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">アップデータ</string>
-  <string name="display_name">アップデート</string>
-  <string name="unknown">不明</string>
+  <string name="display_name">アップデータ</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">更新</string>
   <string name="menu_delete_all">ダウンロードを削除</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">はい</string>
   <string name="dialog_cancel">キャンセル</string>
-  <string name="dialog_update">アップデート</string>
+  <string name="dialog_update">更新</string>
   <string name="dialog_close">閉じる</string>
   <!-- Settings strings -->
   <string name="available_updates_title">利用可能なアップデート</string>
@@ -57,7 +56,6 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>にアップグレードしようとしています。\n\nアップデートを押すと、アップデートをインストールするために端末はリカバリーモードで再起動します。\n\n注意: この機能は互換性のあるリカバリーが必要ですので、互換性がなければ手動でインストールする必要があります。</string>
   <string name="apply_unable_to_reboot_toast">リカバリーモードで再起動できませんでした</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ファイルを削除</string>
   <string name="confirm_delete_dialog_title_tv">クリックして内部ストレージからすべてのダウンロードしたアップデートを削除</string>
   <string name="confirm_delete_dialog_message">選択したアップデートファイルを削除しますか？</string>
   <string name="confirm_delete_all_dialog_message">ダウンロードしたすべてのアップデートファイルを削除しますか？</string>
@@ -77,5 +75,4 @@
   <string name="type_completing">• 完了処理中</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">ダウンロード</string>
-  <string name="install_button">インストール</string>
 </resources>

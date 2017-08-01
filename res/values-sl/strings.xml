@@ -13,13 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Posodobilnik</string>
-  <string name="display_name">Posodobitve</string>
-  <string name="unknown">Neznano</string>
+  <string name="display_name">Posodobilnik</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Osveži</string>
   <string name="menu_delete_all">Izbriši prenose</string>
-  <string name="dialog_ok">V redu</string>
-  <string name="dialog_cancel">Prekliči</string>
   <string name="dialog_update">Posodobi</string>
   <string name="dialog_close">Zapri</string>
   <!-- Settings strings -->
@@ -57,7 +54,6 @@
   <string name="apply_update_dialog_text">Ste pred nadgradnjo na <xliff:g id="filename">%s</xliff:g>.\n\nČe pritisnete Posodobi, se bo naprava ponovno zagnala v obnovitvenem načinu, da se namesti posodobitev.\n\nOpomba: Ta značilnost zahteva združljivo Obnovitev ali pa boste morali posodobitve namestiti ročno.</string>
   <string name="apply_unable_to_reboot_toast">Ponovni zagon v obnovitev ni mogoč</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Izbriši datoteko</string>
   <string name="confirm_delete_dialog_title_tv">Kliknite, da odstranite vse prenesene posodobitve iz notranje pomnilniške naprave</string>
   <string name="confirm_delete_dialog_message">Izbriši izbrano posodobitveno datoteko?</string>
   <string name="confirm_delete_all_dialog_message">Izbriši vse prenesene posodobitvene datoteke?</string>
@@ -77,5 +73,4 @@
   <string name="type_completing">• Zaključevanje</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Prenesi</string>
-  <string name="install_button">Namesti</string>
 </resources>
