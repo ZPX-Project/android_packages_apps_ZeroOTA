@@ -12,13 +12,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Ažuriranje</string>
-  <string name="display_name">Ažuriranje</string>
+  <string name="app_name">ViperOS ažuriranja</string>
+  <string name="display_name">ViperOS ažuriranja</string>
+  <string name="unknown">Nepoznato</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Osvježi</string>
   <string name="menu_delete_all">Izbriši preuzimanja</string>
   <string name="dialog_ok">U redu</string>
   <string name="dialog_cancel">Odustani</string>
+  <string name="dialog_update">Ažuriraj</string>
   <string name="dialog_close">Zatvori</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupna ažuriranja</string>
@@ -31,7 +33,7 @@
   <string name="check_monthly">Mjesečno</string>
   <!-- Update checking -->
   <string name="checking_for_updates">Traženje ažuriranja</string>
-  <string name="no_updates_found">Nema pronađenih novih ažuriranja.</string>
+  <string name="no_updates_found">Nema pronađenih novih ažuriranja</string>
   <string name="update_check_failed">Traženje ažuriranja nije uspjelo. Provjerite mrežnu vezu i pokušajte ponovno kasnije.</string>
   <string name="not_new_updates_found_ticker">Dostupna su nova ažuriranja</string>
   <string name="not_new_updates_found_title">Nova ažuriranja</string>
@@ -42,6 +44,7 @@
   <string name="confirm_download_cancelation_dialog_message">Želite li otkazati preuzimanje ažuriranja?</string>
   <string name="download_cancelled">Preuzimanje je otkazano.</string>
   <string name="download_already_running">Preuzimanje je već u tijeku.</string>
+  <string name="unable_to_stop_download">Nije moguće zaustaviti preuzimanje</string>
   <string name="unable_to_download_file">Preuzimanje datoteke za ažuriranje nije uspjelo.</string>
   <string name="download_not_found">Preuzimanje nije pronađeno</string>
   <string name="not_download_success">Ažuriranje je uspješno preuzeto</string>
@@ -54,6 +57,7 @@
   <string name="apply_update_dialog_text">Ažurirat ćete svoj sustav na <xliff:g id="filename">%s</xliff:g>.\n\nAko pritisnete \"Ažuriraj\", uređaj će se sam ponovno pokrenuti u načinu oporavka kako bi instalirao ažuriranje.\n\nNapomena: ova značajka zahtijeva kompatibilan Oporavak. U suprotnome će se ažuriranja morati instalirati ručno.</string>
   <string name="apply_unable_to_reboot_toast">Ponovno pokretanje u način oporavka nije uspjelo.</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">Izbriši datoteku</string>
   <string name="confirm_delete_dialog_title_tv">Kliknite da biste izbrisali sva preuzeta ažuriranja iz unutarnje pohrane.</string>
   <string name="confirm_delete_dialog_message">Želite li izbrisati odabranu datoteku za ažuriranje?</string>
   <string name="confirm_delete_all_dialog_message">Želite li izbrisati sve preuzete datoteke za ažuriranja?</string>
@@ -70,6 +74,8 @@
   <string name="type_installed">• Instalirano</string>
   <string name="type_downloaded">• Preuzeto</string>
   <string name="type_downloading">• Preuzima se</string>
+  <string name="type_completing">• Dovršavanje</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Preuzmi</string>
+  <string name="install_button">Instaliraj</string>
 </resources>

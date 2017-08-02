@@ -13,14 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Anovador</string>
-  <string name="display_name">Anovamientos</string>
-  <string name="unknown">Desconocíu</string>
+  <string name="display_name">Anovador</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Refrescar</string>
   <string name="menu_delete_all">Desaniciar descargues</string>
-  <string name="dialog_ok">Aceutar</string>
-  <string name="dialog_cancel">Encaboxar</string>
-  <string name="dialog_update">Anovar</string>
   <string name="dialog_close">Zarrar</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Anovamientos disponibles</string>
@@ -56,7 +52,6 @@
   <string name="apply_update_dialog_title">Aplicar anovamientu</string>
   <string name="apply_update_dialog_text">Tas a piques d\'anovar a <xliff:g id="filename">%s</xliff:g>.\n\nSi primes ANOVAR, el preséu reaniciaráse solu al recovery pa instalar l\'anovamientu.\n\nNota: Esta carauterística rique un recovery compatible o los anovamientos precisarán instalase a mano.</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Desaniciar ficheru</string>
   <string name="confirm_delete_dialog_title_tv">Primi pa desaniciar tolos anovamientos baxaos nel almacenamientu internu</string>
   <string name="confirm_delete_dialog_message">¿Desaniciar el ficheru esbilláu d\'anovamientu?</string>
   <string name="confirm_delete_all_dialog_message">¿Desaniciar tolos anovamientos baxaos?</string>
@@ -76,5 +71,4 @@
   <string name="type_completing">• Completando</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Baxar</string>
-  <string name="install_button">Instalar</string>
 </resources>

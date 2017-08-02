@@ -12,12 +12,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="app_name">به روز رسانی ViperOS</string>
+  <string name="display_name">به روز رسانی ViperOS</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">تازه کردن</string>
   <string name="menu_delete_all">حذف دانلودها</string>
+  <string name="dialog_update">به روز رسانی</string>
   <string name="dialog_close">بستن</string>
   <!-- Settings strings -->
   <string name="available_updates_title">بروزرسانی‌های موجود</string>
+  <string name="no_available_updates_intro">هیچ به روز رسانی جدیدی پیدا نشد. برای بررسی دستی به روز رسانی ها، از دکمه تازه سازی استفاده کنید.</string>
   <string name="update_check_title">بررسی برای بروزرسانی</string>
   <string name="check_manual">دستی</string>
   <string name="check_daily">روزانه</string>
@@ -37,12 +41,14 @@
   <string name="confirm_download_cancelation_dialog_message">دانلود فعلی را لغو می کنید؟</string>
   <string name="download_cancelled">دانلود لغو شد</string>
   <string name="download_already_running">دانلودی از قبل در حال اجراست</string>
+  <string name="unable_to_stop_download">قادر به توقف دانلود نیست</string>
   <string name="unable_to_download_file">قادر به دانلود فایل بروزرسانی نیست</string>
   <string name="download_not_found">دانلود پیدا نشد</string>
   <string name="not_download_success">بروزرسانی با موفقیت دانلود شد</string>
   <string name="not_download_failure">دانلود بروزرسانی ناموفق بود</string>
   <string name="not_action_install_update">راه‌اندازی مجدد و نصب</string>
   <string name="not_download_install_notice">بروزرسانی <xliff:g id="filename">%s</xliff:g> با موفقیت دانلود شد. هنگام لمس \'راه‌اندازی مجدد و نصب\'، دستگاه، خود را برای نصب بروزرسانی مجددا راه‌اندازی خواهد کرد.\n\n توجه: ریکاوری سازگاری برای نصب اتوماتیک مورد نیاز است.</string>
+  <string name="verification_failed">تاییدیه ناموفق بود. دانلود خراب یا ما امن است</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">انجام بروزرسانی</string>
   <string name="apply_update_dialog_text">درصدد بروزرسانی به <xliff:g id="filename">%s</xliff:g> هستید.\n\n اگر بروزرسانی را بزنید، دستگاه، خود را برای نصب بروزرسانی در حالت ریکاوری مجددا راه‌اندازی خوهد کرد.\n\n توجه: این قابلیت به یک ریکاوری سازگار نیاز دارد در غیر این صورت بروزرسانی‌ها باید به صورت دستی نصب شوند.</string>
@@ -56,6 +62,15 @@
   <string name="delete_updates_noFolder_message">پوشه بروزرسانی پیدا نشد</string>
   <string name="delete_updates_success_message">تمام بروزرسانی‌های دانلودشده حذف شد</string>
   <!-- Header -->
+  <string name="header_os">ViperOS
+\n%1$s</string>
+  <string name="header_summary">%1$s\n%2$s • اندروید %3$s\n%4$s</string>
+  <string name="sysinfo_last_check">آخرین بررسی</string>
   <!-- Build item -->
+  <string name="type_installed">• نصب شده است</string>
+  <string name="type_downloaded">• دانلود شده</string>
+  <string name="type_downloading">• در حال دانلود</string>
+  <string name="type_completing">• در حال تکمیل</string>
+  <string name="summary">%1$s\nViperOS %2$s • اندروید %3$s</string>
   <string name="download_button">دانلود</string>
 </resources>

@@ -13,13 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Actualizador</string>
-  <string name="display_name">Actualizacións</string>
-  <string name="unknown">Descoñecido</string>
+  <string name="display_name">Actualizador</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Recargar</string>
   <string name="menu_delete_all">Eliminar as descargas</string>
-  <string name="dialog_ok">Aceptar</string>
-  <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_update">Actualizar</string>
   <string name="dialog_close">Pechar</string>
   <!-- Settings strings -->
@@ -57,7 +54,6 @@
   <string name="apply_update_dialog_text">Vai proceder a actualizar á versión <xliff:g id="filename">%s</xliff:g>.\n\nTocando sobre \"Actualizar\", o dispositivo reiniciarase para instalar a actualización.\n\nAviso: Cómpre dispoñer dunha recuperación compatíbel para que a instalación funcione automaticamente.</string>
   <string name="apply_unable_to_reboot_toast">Non foi posíbel reiniciar no modo de recuperación</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Eliminar o ficheiro</string>
   <string name="confirm_delete_dialog_title_tv">Premer para eliminar todas as actualizacións descargadas do almacenamento interno</string>
   <string name="confirm_delete_dialog_message">Eliminar o ficheiro da actualización seleccionada?</string>
   <string name="confirm_delete_all_dialog_message">Eliminar todos os ficheiros de actualización descargados?</string>
@@ -77,5 +73,4 @@
   <string name="type_completing">• Completando</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
   <string name="download_button">Descargar</string>
-  <string name="install_button">Instalado</string>
 </resources>

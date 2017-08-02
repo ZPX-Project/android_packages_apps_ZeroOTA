@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">புதுப்பித்தல்கள்</string>
-  <string name="unknown">தெரியாதது</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">புதுப்பி</string>
   <string name="menu_delete_all">பதிவிறக்கங்களை நீக்கு</string>
-  <string name="dialog_ok">சரி</string>
-  <string name="dialog_cancel">ரத்துசெய்</string>
-  <string name="dialog_update">புதுப்பி</string>
   <string name="dialog_close">மூடு</string>
   <!-- Settings strings -->
   <string name="available_updates_title">கிடைக்கின்ற புதுப்பித்தல்கள்</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">நீங்கள் <xliff:g id="filename">%s</xliff:g>க்கு புதுப்பிக்க உள்ளீர்கள். \n\n நீங்கள் புதுப்பித்தலை அழுத்தினால், புதுப்பித்தலை நிறுவ சாதனமானது மீட்பு பயன்முறையிலே தன்னையே மறுதுவக்கம் செய்யும்.\n\n குறிப்பு: இந்த அம்சத்திற்கு ஒரு இணக்கமான மீட்பு தேவை அல்லது புதுப்பித்தல்கள் கைமுறையாக நிறுவப்பட வேண்டும்.</string>
   <string name="apply_unable_to_reboot_toast">மீட்புக்குள் மறு இயக்கம் செய்ய முடியவில்லை.</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">கோப்பை நீக்கு</string>
   <string name="confirm_delete_dialog_title_tv">உட்புற சேமிப்பகத்தில் இருந்து அனைத்து பதிவிறக்கப்பட்ட புதுப்பித்தல்களையும் நீக்க கிளிக் செய்</string>
   <string name="confirm_delete_dialog_message">தேர்ந்தெடுக்கப்பட்ட புதுப்பித்தல் கோப்பை நீக்கவா?</string>
   <string name="confirm_delete_all_dialog_message">அனைத்து பதிவிறக்கப்பட்ட கோப்புகளையும் நீக்கவா?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">அனைத்து பதிவிறக்கப்பட்ட புதுப்பித்தல்களும் நீக்கப்பட்டன.</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">இறக்கு</string>
 </resources>

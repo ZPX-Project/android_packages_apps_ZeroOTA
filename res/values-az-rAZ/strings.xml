@@ -12,13 +12,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">Yeniləmələr</string>
-  <string name="unknown">Bilinməyən</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Yenilə</string>
   <string name="menu_delete_all">Endirmələri sil</string>
   <string name="dialog_ok">Oldu</string>
-  <string name="dialog_cancel">İmtina</string>
   <string name="dialog_update">Yenilə</string>
   <string name="dialog_close">Bağla</string>
   <!-- Settings strings -->
@@ -53,7 +50,6 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> yeniləməsi ediləcək.\n\nYeniləyə basanda cihaz yeniləməni quraşdırmaq üçün bərpa rejimində yenidən başlayacaq.\n\nQeyd: Bu özəlliyin uyğun bir Bərpa mühitinə ehtiyacı var, əks halda yeniləmələr əllə quraşdırılmalıdır.</string>
   <string name="apply_unable_to_reboot_toast">Bərpa rejimi üçün yenidən başladıla bilmədi</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Faylı sil</string>
   <string name="confirm_delete_dialog_title_tv">Endirilmiş bütün yeniləmələri daxili yaddaşdan silmək üçün klikləyin</string>
   <string name="confirm_delete_dialog_message">Seçilmiş yeniləmə faylı silinsin?</string>
   <string name="confirm_delete_all_dialog_message">Bütün endirilmiş yeniləmələr silinsin?</string>
@@ -63,4 +59,5 @@
   <string name="delete_updates_success_message">Endirilən bütün yeniləmələr silindi</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">Endir</string>
 </resources>

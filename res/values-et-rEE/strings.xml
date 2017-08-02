@@ -12,14 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="display_name">Uuendused</string>
-  <string name="unknown">Teadmata</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Värskenda</string>
   <string name="menu_delete_all">Allalaetud failide kustutamine</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Tühista</string>
-  <string name="dialog_update">Uuenda</string>
   <string name="dialog_close">Sulge</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Saadaval uuendused</string>
@@ -53,7 +48,6 @@
   <string name="apply_update_dialog_text">Oled uuendamas versioonile <xliff:g id="filename">%s</xliff:g>.\n\nVajutades \'Uuenda\' nuppu seade taaskäivitub taastamise režiimi ja paigaldab uuenduse.\n\nPane tähele: kokkusobiva taastamise režiimi puudumisel tuleb uuendus paigaldada käsitsi.</string>
   <string name="apply_unable_to_reboot_toast">Taaskäivitamine taastamise režiimi nurjus</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Faili kustutamine</string>
   <string name="confirm_delete_dialog_title_tv">Kliki kõikide allalaetud uuenduste kustutamiseks sisemälust</string>
   <string name="confirm_delete_dialog_message">Kustuta valitud uuenduse fail?</string>
   <string name="confirm_delete_all_dialog_message">Kustuta kõik allalaetud uuenduste failid?</string>
@@ -63,4 +57,5 @@
   <string name="delete_updates_success_message">Kõik allalaetud uuendused on kustutatud</string>
   <!-- Header -->
   <!-- Build item -->
+  <string name="download_button">Lae alla</string>
 </resources>

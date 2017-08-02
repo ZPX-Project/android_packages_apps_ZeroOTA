@@ -12,8 +12,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Aktualizovat</string>
-  <string name="display_name">Aktualizovat</string>
+  <string name="app_name">Aktualizace ViperOS</string>
+  <string name="display_name">Aktualizace ViperOS</string>
   <string name="unknown">Neznámá</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Obnovit</string>
@@ -34,7 +34,7 @@
   <!-- Update checking -->
   <string name="checking_for_updates">Vyhledávání aktualizací</string>
   <string name="no_updates_found">Nové aktualizace nenalezeny</string>
-  <string name="update_check_failed">Zjištění nové verze selhalo. Prosím zkontrolujte připojení k internetu a pokus opakujte.</string>
+  <string name="update_check_failed">Kontrola aktualizací selhala. Zkontrolujte připojení k internetu a zkuste to znovu.</string>
   <string name="not_new_updates_found_ticker">Nové aktualizace k dispozici</string>
   <string name="not_new_updates_found_title">Nové aktualizace</string>
   <string name="not_action_download">Stáhnout</string>
@@ -59,12 +59,12 @@
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Smazat soubor</string>
   <string name="confirm_delete_dialog_title_tv">Dotykem odstranit všechny stáhnuté aktualizace z interního úložiště</string>
-  <string name="confirm_delete_dialog_message">Opravdu chcete smazat soubor aktualizace?</string>
-  <string name="confirm_delete_all_dialog_message">Opravdu chcete smazat všechny soubory aktualizací?</string>
+  <string name="confirm_delete_dialog_message">Smazat zvolený soubor aktualizace?</string>
+  <string name="confirm_delete_all_dialog_message">Smazat všechny soubory aktualizací?</string>
   <string name="delete_single_update_success_message">Aktualizace <xliff:g id="filename">%s</xliff:g> smazána</string>
-  <string name="delete_updates_failure_message">Během mazání souboru aktualizace se vyskytla chyba</string>
+  <string name="delete_updates_failure_message">Během mazání souboru aktualizace došlo k chybě</string>
   <string name="delete_updates_noFolder_message">Adresář aktualizací nenalezen</string>
-  <string name="delete_updates_success_message">Všechny stažené soubory aktualizací smazány</string>
+  <string name="delete_updates_success_message">Všechny stažené aktualizace odstraněny</string>
   <!-- Header -->
   <string name="header_os">ViperOS
 \n%1$s</string>

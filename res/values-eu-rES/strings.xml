@@ -13,14 +13,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
   <string name="app_name">Eguneratzailea</string>
-  <string name="display_name">Eguneraketak</string>
-  <string name="unknown">Ezezaguna</string>
+  <string name="display_name">Eguneratzailea</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Berritu</string>
   <string name="menu_delete_all">Ezabatu deskargak</string>
-  <string name="dialog_ok">Ados</string>
-  <string name="dialog_cancel">Ezeztu</string>
-  <string name="dialog_update">Eguneratu</string>
   <string name="dialog_close">Itxi</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Eskuragarri dauden eguneraketak</string>
@@ -57,7 +53,6 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> bertsioa instalatzera zoaz.\n\nEguneratu sakatzean, gailua  berreskuratze moduan berrabiaraziko da eguneraketa instalatzeko.\n\nOharra: Berreskuratze aplikazio bateragarri bat behar du ezaugarri honek, bestela eguneraketak eskuz instalatu beharko dira.</string>
   <string name="apply_unable_to_reboot_toast">Ezin izan da berreskuratze moduan berrabiarazi</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Ezabatu fitxategia</string>
   <string name="confirm_delete_dialog_title_tv">Sakatu deskargatutako eguneraketa guztiak ezabatzeko barne biltegiratzetik</string>
   <string name="confirm_delete_dialog_message">Ezabatu hautatutako eguneraketa fitxategia?</string>
   <string name="confirm_delete_all_dialog_message">Ezabatu deskargatutako eguneraketa fitxategi guztiak?</string>
@@ -76,6 +71,5 @@
   <string name="type_downloading">• Deskargatzen</string>
   <string name="type_completing">• Osatzen</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="download_button">Deskargatu</string>
-  <string name="install_button">Instalatu</string>
+  <string name="download_button">Deskarga</string>
 </resources>

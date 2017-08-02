@@ -10,13 +10,47 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">Popis promjena</string>
+  <string name="changelog_loading">Učitavanje popisa promjena...</string>
+  <string name="changelog_error">Pogreška učitavanja popisa promjena</string>
+  <string name="changelog_not_available">Popis promjena nije dostupan</string>
   <!-- Settings section -->
+  <string name="settings_category_title">Postavke</string>
+  <string name="download_folder_title">Mapa za preuzimanja</string>
   <!-- Main section -->
+  <string name="updates_category_title">Najnovija inačica (pritisnite za prikaz popisa promjena)</string>
   <!-- Info section -->
+  <string name="extras_category_title">Dodaci</string>
+  <string name="developer_info_title">Održavatelj(i)</string>
+  <string name="donate_info_title">Donirajte</string>
+  <string name="donate_info_summary">Kupite mi kavu</string>
+  <string name="website_info_title">Forum</string>
+  <string name="website_info_summary">Vidi XDA raspravu</string>
+  <string name="error_open_url">Učitavanje URL-a u pregledniku nije uspjelo</string>
+  <string name="addons_title">Dodaci</string>
+  <string name="addons_summary">Korisne datoteke</string>
   <!-- Addons -->
+  <string name="addons_error">Učitavanje popisa dodataka nije uspjelo</string>
   <!-- MD5 -->
+  <string name="checking_md5">Provjeravanje hasha...</string>
+  <string name="md5_failed_dialog_title">Hash verifikacija</string>
+  <string name="md5_failed_dialog_message">Hash verifikacija nije uspjela, želite li nastaviti?</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">Molimo dopustite dozvolu za pohranu za nastavak</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery_dialog_message">Jeste li sigurni da želite ponovno pokrenuti?</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA nije postavljen, molimo kontaktirajte održavatelja ROM-a.</string>
   <!-- Install -->
+  <string name="install_title">Instaliraj</string>
+  <string name="checking_root">Provjera root pristupa...</string>
+  <string name="available_reboot_manual_title">Nije pronađen root pristup</string>
+  <string name="fab_add_file_title">Dodaj datoteku</string>
+  <string name="fab_remove_all_files_title">Ukloni sve datoteke</string>
+  <string name="fab_wipe_title">Mogućnosti brisanja</string>
+  <string name="delete_file_dialog_title">Izbriši datoteku</string>
+  <string name="delete_file_dialog_message">Jeste li sigurni da želite izbrisati ovu datoteku s popisa?</string>
+  <string name="file_get_path_error">Nije moguće pronaći put datoteke</string>
+  <string name="please_wait">Molimo pričekajte ...</string>
+  <string name="copy_progress">Kopiranje %1$s ...</string>
 </resources>
