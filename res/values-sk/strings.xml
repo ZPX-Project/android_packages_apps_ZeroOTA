@@ -12,19 +12,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Aktualizátor</string>
-  <string name="display_name">Aktualizátor</string>
+  <string name="app_name">Aktualizácie ViperOS</string>
+  <string name="display_name">Aktualizácie ViperOS</string>
   <string name="unknown">Neznáma</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Obnoviť</string>
-  <string name="menu_delete_all">Vymazať prevzatia</string>
+  <string name="menu_delete_all">Odstrániť stiahnuté súbory</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Zrušiť</string>
   <string name="dialog_update"> Aktualizovať</string>
   <string name="dialog_close">Zavrieť</string>
   <!-- Settings strings -->
   <string name="available_updates_title">Dostupné aktualizácie</string>
-  <string name="no_available_updates_intro">Neboli nájdené žiadne nové aktualizácie. Ak chcete ručne vyhľadať nové aktualizácie, použite tlačítko Aktualizovať.</string>
+  <string name="no_available_updates_intro">Neboli nájdené žiadne nové aktualizácie. Ak chcete ručne vyhľadať nové aktualizácie, použite tlačidlo Aktualizovať.</string>
   <string name="update_check_title">Kontrolovať aktualizácie</string>
   <string name="check_manual">Ručne</string>
   <string name="check_daily">Denne</string>
@@ -32,39 +32,39 @@
   <string name="check_bi_weekly">Raz za dva týždne</string>
   <string name="check_monthly">Mesačne</string>
   <!-- Update checking -->
-  <string name="checking_for_updates">Kontrolovanie aktualizácií</string>
+  <string name="checking_for_updates">Kontrola aktualizácií</string>
   <string name="no_updates_found">Nenašli sa žiadne nové aktualizácie</string>
-  <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím vaše internetové pripojenie a skúste to znova neskôr.</string>
+  <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím vaše internetové pripojenie a skúste to neskôr.</string>
   <string name="not_new_updates_found_ticker">K dispozícii sú nové aktualizácie</string>
   <string name="not_new_updates_found_title">Nové aktualizácie</string>
-  <string name="not_action_download">Download</string>
+  <string name="not_action_download">Stiahnuť</string>
   <string name="data_connection_required">Vyžaduje sa dátové pripojenie.</string>
   <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Zrušenie preberania</string>
-  <string name="confirm_download_cancelation_dialog_message">Zrušiť aktuálne preberanie?</string>
-  <string name="download_cancelled">Preberanie bolo zrušené</string>
-  <string name="download_already_running">Preberanie je už spustené</string>
-  <string name="unable_to_stop_download">Nemožno sa zastaviť sťahovanie</string>
-  <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
-  <string name="download_not_found">Prevzatie sa nenašlo</string>
-  <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
-  <string name="not_download_failure">Aktualizácia nebola úspešne prevzatá</string>
-  <string name="not_action_install_update">Reštartovať a inštalovať</string>
-  <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje kvôli inštalácii aktualizácie.\n\nPoznámka: Na automatickú inštaláciu sa požaduje kompatibilné Recovery.</string>
-  <string name="verification_failed">Overenie zlyhalo. Soubor je poškodený alebo nebezpečný</string>
+  <string name="confirm_download_cancelation_dialog_title">Zrušiť sťahovanie</string>
+  <string name="confirm_download_cancelation_dialog_message">Zrušiť aktuálne sťahovanie?</string>
+  <string name="download_cancelled">Sťahovanie bolo zrušené</string>
+  <string name="download_already_running">Sťahovanie je už spustené</string>
+  <string name="unable_to_stop_download">Sťahovanie nie je možné zastaviť</string>
+  <string name="unable_to_download_file">Nie je možné stiahnuť aktualizačný súbor</string>
+  <string name="download_not_found">Súbor pre stiahnutie nebol nájdený</string>
+  <string name="not_download_success">Aktualizácia bola úspešne stiahnutá</string>
+  <string name="not_download_failure">Aktualizácia nebola úspešne stiahnutá</string>
+  <string name="not_action_install_update">Reštartovať a nainštalovať</string>
+  <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne stiahnutá. Kliknutím na \'Reštartovať a nainštalovať\' sa zariadenie reštartuje kvôli inštalácii aktualizácie.\n\nPoznámka: Na automatickú inštaláciu sa požaduje kompatibilné Recovery.</string>
+  <string name="verification_failed">Overenie zlyhalo. Súbor je poškodený alebo bol stiahnutý z nezabezpečeného úložiska</string>
   <!-- Apply update strings -->
   <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
-  <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
+  <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budete musieť aktualizácie nainštalovať ručne.</string>
   <string name="apply_unable_to_reboot_toast">Nemožno reštartovať do Recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Vymazať súbor</string>
-  <string name="confirm_delete_dialog_title_tv">Kliknutím odstránite všetky prevzaté aktualizácie z interného ukladacieho priestoru</string>
+  <string name="confirm_delete_dialog_title_tv">Kliknutím odstránite všetky stiahnuté aktualizácie z interného úložiska</string>
   <string name="confirm_delete_dialog_message">Vymazať vybraný súbor aktualizácie?</string>
-  <string name="confirm_delete_all_dialog_message">Vymazať všetky prevzaté súbory aktualizácií?</string>
+  <string name="confirm_delete_all_dialog_message">Vymazať všetky stiahnuté súbory aktualizácií?</string>
   <string name="delete_single_update_success_message">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola odstránená</string>
   <string name="delete_updates_failure_message">Vyskytla sa chyba pri mazaní súboru aktualizácie</string>
   <string name="delete_updates_noFolder_message">Priečinok s aktualizáciou sa nenašiel</string>
-  <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli vymazané</string>
+  <string name="delete_updates_success_message">Všetky stahnuté aktualizácie boli vymazané</string>
   <!-- Header -->
   <string name="header_os">ViperOS
 \n%1$s</string>
@@ -76,6 +76,6 @@
   <string name="type_downloading">• Sťahovanie</string>
   <string name="type_completing">• Dokončovanie</string>
   <string name="summary">%1$s\nViperOS %2$s • Android %3$s</string>
-  <string name="download_button">Download</string>
+  <string name="download_button">Stiahnuť</string>
   <string name="install_button">Nainštalovať</string>
 </resources>

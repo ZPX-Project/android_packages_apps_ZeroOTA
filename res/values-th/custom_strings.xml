@@ -11,11 +11,28 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
   <string name="changelog">บันทึกการเปลี่ยนแปลง</string>
+  <string name="changelog_loading">กำลังโหลด โน๊ตการเปลี่ยนแปลง...</string>
+  <string name="changelog_error">ข้อผิดพลาดการโหลดโน๊ตการเปลี่ยนแปลง</string>
+  <string name="changelog_not_available">ไม่มีการแสดลผลโน็ตการเปลี่ยนแปลง</string>
   <!-- Settings section -->
+  <string name="settings_category_title">การตั้งค่า</string>
+  <string name="download_folder_title">โฟลเดอร์ดาวน์โหลด</string>
   <!-- Main section -->
+  <string name="updates_category_title">เวอร์ชั่นล่าสุด (เคาะเพื่อดูการเปลี่ยนแปลง)</string>
   <!-- Info section -->
+  <string name="extras_category_title">เพิ่มเติม</string>
+  <string name="developer_info_title">ผู้ดูแล</string>
+  <string name="donate_info_title">ร่วมสนับสนุน</string>
+  <string name="donate_info_summary">เลี้ยงกาแฟฉัน</string>
+  <string name="website_info_title">บอร์ดข่าวสาร</string>
+  <string name="website_info_summary">ดูกระทู้บน XDA</string>
+  <string name="error_open_url">ไม่สามารถเปิด URL ในเบราว์เซอร์</string>
+  <string name="addons_title">ส่วนเสริม</string>
+  <string name="addons_summary">แฟ้มที่มีประโยชน์</string>
   <!-- Addons -->
+  <string name="addons_error">ไม่สามารถโหลดรายการ addons</string>
   <!-- MD5 -->
+  <string name="checking_md5">การตรวจสอบแฮ...</string>
   <!-- Storage permission -->
   <!-- Restart recovery -->
   <!-- OTA not configured -->

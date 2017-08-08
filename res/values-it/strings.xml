@@ -12,8 +12,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
-  <string name="app_name">Aggiornamenti</string>
-  <string name="display_name">Aggiornamenti</string>
+  <string name="app_name">Aggiornamenti ViperOS</string>
+  <string name="display_name">Aggiornamenti ViperOS</string>
   <string name="unknown">Sconosciuto</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">Aggiorna</string>
@@ -58,7 +58,7 @@
   <string name="apply_unable_to_reboot_toast">Impossibile riavviare in recovery</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Elimina file</string>
-  <string name="confirm_delete_dialog_title_tv">Fai click per rimuovere tutti i download scaricti nella memoria interna</string>
+  <string name="confirm_delete_dialog_title_tv">Fai click per rimuovere tutti i download scaricati nella memoria interna</string>
   <string name="confirm_delete_dialog_message">Eliminare il file di aggiornamento selezionato?</string>
   <string name="confirm_delete_all_dialog_message">Eliminare tutti gli aggiornamenti scaricati?</string>
   <string name="delete_single_update_success_message">Aggiornamento <xliff:g id="filename">%s</xliff:g> eliminato</string>

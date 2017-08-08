@@ -34,7 +34,7 @@
   <!-- MD5 -->
   <string name="checking_md5">Проверка хэша...</string>
   <string name="md5_failed_dialog_title">Верификация хэша</string>
-  <string name="md5_failed_dialog_message">Ошибка верификации хеша, вы хотите продолжить?</string>
+  <string name="md5_failed_dialog_message">Ошибка верификации хеша, хотите продолжить?</string>
   <!-- Storage permission -->
   <string name="storage_permission_error">Пожалуйста предоставьте разрешение на хранилище для продолжения</string>
   <!-- Restart recovery -->

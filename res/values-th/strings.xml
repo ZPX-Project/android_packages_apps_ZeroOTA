@@ -12,9 +12,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General strings -->
+  <string name="unknown">ไม่ทราบ</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">โหลดใหม่</string>
   <string name="menu_delete_all">ลบสิ่งที่ดาวน์โหลดไว้</string>
+  <string name="dialog_ok">ตกลง</string>
+  <string name="dialog_cancel">ยกเลิก</string>
   <string name="dialog_close">ปิด</string>
   <!-- Settings strings -->
   <string name="available_updates_title">การอัปเดตที่พร้อมให้ดาวน์โหลด</string>

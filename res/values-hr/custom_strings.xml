@@ -38,19 +38,31 @@
   <!-- Storage permission -->
   <string name="storage_permission_error">Molimo dopustite dozvolu za pohranu za nastavak</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">Ponovno pokreni u recovery mode</string>
   <string name="restart_recovery_dialog_message">Jeste li sigurni da želite ponovno pokrenuti?</string>
+  <string name="restart_recovery_error_message">Ponovno pokretanje nije uspjelo, molimo provjerite root pristup</string>
   <!-- OTA not configured -->
   <string name="ota_not_configured_error_message">OTA nije postavljen, molimo kontaktirajte održavatelja ROM-a.</string>
   <!-- Install -->
   <string name="install_title">Instaliraj</string>
   <string name="checking_root">Provjera root pristupa...</string>
   <string name="available_reboot_manual_title">Nije pronađen root pristup</string>
+  <string name="available_reboot_manual_message">Molimo ponovno pokrenite uređaj u recovery i ručno instalirajte.\n\nROM zip datoteku možete pronaći u mapi ViperOTA.</string>
   <string name="fab_add_file_title">Dodaj datoteku</string>
   <string name="fab_remove_all_files_title">Ukloni sve datoteke</string>
   <string name="fab_wipe_title">Mogućnosti brisanja</string>
+  <string name="fab_install_title">Ponovno pokreni u recovery i instaliraj</string>
+  <string name="wipe_cache">Izbriši predmemoriju</string>
+  <string name="wipe_dalvik">Izbriši dalvik predmemoriju</string>
+  <string name="wipe_data">Izbriši podatke</string>
   <string name="delete_file_dialog_title">Izbriši datoteku</string>
   <string name="delete_file_dialog_message">Jeste li sigurni da želite izbrisati ovu datoteku s popisa?</string>
+  <string name="file_not_allowed">Samo zip datoteke su dopuštene</string>
   <string name="file_get_path_error">Nije moguće pronaći put datoteke</string>
+  <string name="no_files">Datoteke nisu dodane. Datoteku možete dodati pritiskom na gumb \'+\'</string>
   <string name="please_wait">Molimo pričekajte ...</string>
   <string name="copy_progress">Kopiranje %1$s ...</string>
+  <string name="copy_failed">Kopiranje stavke %1$s nije uspjelo.\n\nProvjerite ima li uređaj dovoljno slobodne pohrane i ima li aplikacija dopuštenje za pisanje podataka.</string>
+  <string name="install_dialog_message">Jeste li sigurni da želite nastaviti? Ovo radi na TWRP i nekim prilagođenim CWM (neslužbenim) recoveryjima.\n\nPotreban je root pristup.</string>
+  <string name="install_write_ors_failed_dialog_message">Pisanje recovery skripte nije uspjelo, želite li ponovno pokrenuti uređaj i ručno instalirati?</string>
 </resources>

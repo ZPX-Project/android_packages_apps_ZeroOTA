@@ -16,7 +16,7 @@
   <string name="changelog_not_available">Zoznam zmien nie je k dispozícii</string>
   <!-- Settings section -->
   <string name="settings_category_title">Nastavenia</string>
-  <string name="download_folder_title">Priečinok pre preberanie</string>
+  <string name="download_folder_title">Priečinok pre sťahovanie</string>
   <!-- Main section -->
   <string name="updates_category_title">Najnovšia verzia (kliknutím zobrazíte zoznam zmien)</string>
   <!-- Info section -->

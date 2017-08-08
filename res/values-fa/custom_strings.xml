@@ -10,13 +10,59 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Changelog -->
+  <string name="changelog">تغییرات</string>
+  <string name="changelog_loading">بارگیری تغییرات...</string>
+  <string name="changelog_error">خطا در بارگذاری تغییرات</string>
+  <string name="changelog_not_available">تغییرات در دسترس نیست</string>
   <!-- Settings section -->
+  <string name="settings_category_title">تنظیمات</string>
+  <string name="download_folder_title">پوشه دانلود</string>
   <!-- Main section -->
+  <string name="updates_category_title">آخرین نسخه (برای مشاهده تغییرات ضربه بزنید)</string>
   <!-- Info section -->
+  <string name="extras_category_title">اضافی</string>
+  <string name="developer_info_title">نگهدارنده(ها)</string>
+  <string name="donate_info_title">اهدا کنید</string>
+  <string name="donate_info_summary">یک قهوه بخر</string>
+  <string name="website_info_title">انجمن</string>
+  <string name="website_info_summary">مشاهده موضوع در XDA</string>
+  <string name="error_open_url">عدم موفقیت در بازکردن URL در مرورگر</string>
+  <string name="addons_title">افزودنی ها</string>
+  <string name="addons_summary">فایل های مفید</string>
   <!-- Addons -->
+  <string name="addons_error">بارگذاری فهرست افزودنی ها انجام نشد</string>
   <!-- MD5 -->
+  <string name="checking_md5">در حال چک کردن هش...</string>
+  <string name="md5_failed_dialog_title">تایید هش</string>
+  <string name="md5_failed_dialog_message">تایید هش شکست خورد، میخواهید ادامه دهید ؟</string>
   <!-- Storage permission -->
+  <string name="storage_permission_error">لطفاً برای ادامه دادن اجازه دسترسی به حافظه را بدهید</string>
   <!-- Restart recovery -->
+  <string name="restart_recovery">راه اندازی مجدد به حالت ریکاوری</string>
+  <string name="restart_recovery_dialog_message">آیا مطمئنید که میخواهید راه اندازی مجدد کنید ؟</string>
+  <string name="restart_recovery_error_message">نتوانست راه اندازی مجدد شود، لطفا دسترسی روت را بررسی کنید</string>
   <!-- OTA not configured -->
+  <string name="ota_not_configured_error_message">OTA پیکربندی نشده است، لطفا با نگهدارنده‌‌ی رام تماس بگیرید.</string>
   <!-- Install -->
+  <string name="install_title">نصب</string>
+  <string name="checking_root">بررسی دسترسی به روت...</string>
+  <string name="available_reboot_manual_title">دسترسی به روت یافت نشد</string>
+  <string name="available_reboot_manual_message">لطفا به ریکاوری راه اندازی مجدد و دستی نصب کنید.\n\nشما میتوانید فایل zip رام را در پوشه ViperOTA پیدا کنید.</string>
+  <string name="fab_add_file_title">اضافه کردن فایل</string>
+  <string name="fab_remove_all_files_title">حذف همه‌ی فایل‌ها</string>
+  <string name="fab_wipe_title">گزینه های wipe</string>
+  <string name="fab_install_title">راه اندازی مجدد به ریکاوری و نصب</string>
+  <string name="wipe_cache">پاک کردن کش</string>
+  <string name="wipe_dalvik">پاک کردن dalvik cache</string>
+  <string name="wipe_data">پاک کردن داده‌ها</string>
+  <string name="delete_file_dialog_title">حذف فایل</string>
+  <string name="delete_file_dialog_message">آیا مطمئنید که میخواهید این فایل را از فهرست حذف کنید؟</string>
+  <string name="file_not_allowed">فقط فایل‌های zip مجازند</string>
+  <string name="file_get_path_error">مسیر فایل پیدا نشد</string>
+  <string name="no_files">هیچ فایلی اضافه نشد. شما می توانید یک فایل را با کلیک روی دکمه \"+\" اضافه کنید</string>
+  <string name="please_wait">لطفا صبر کنید...</string>
+  <string name="copy_progress">در حال کپی کردن %1$s ...</string>
+  <string name="copy_failed">خطا در کپی کردن %1$s.\n\nاطمینان حاصل کنید که دستگاه فضای ذخیره سازی کافی داشته و برنامه دارای مجوزهای نوشتن است.</string>
+  <string name="install_dialog_message">آیا مطمئن هستید که می خواهید ادامه دهید؟ این کار بر روی TWRP و برخی از CWM سفارشی (غیر رسمی) کار می کند.\n\nدسترسی Root مورد نیاز است.</string>
+  <string name="install_write_ors_failed_dialog_message">عدم موفقیت در نوشتن اسکریپت ریکاوری، آیا می خواهید راه اندازی مجدد و نصب دستی کنید ؟</string>
 </resources>

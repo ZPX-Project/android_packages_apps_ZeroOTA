@@ -14,9 +14,12 @@
   <!-- General strings -->
   <string name="app_name">به روز رسانی ViperOS</string>
   <string name="display_name">به روز رسانی ViperOS</string>
+  <string name="unknown">ناشناخته</string>
   <!-- Menu and dialog box strings -->
   <string name="menu_refresh">تازه کردن</string>
   <string name="menu_delete_all">حذف دانلودها</string>
+  <string name="dialog_ok">تایید</string>
+  <string name="dialog_cancel">لغو</string>
   <string name="dialog_update">به روز رسانی</string>
   <string name="dialog_close">بستن</string>
   <!-- Settings strings -->
@@ -54,6 +57,7 @@
   <string name="apply_update_dialog_text">درصدد بروزرسانی به <xliff:g id="filename">%s</xliff:g> هستید.\n\n اگر بروزرسانی را بزنید، دستگاه، خود را برای نصب بروزرسانی در حالت ریکاوری مجددا راه‌اندازی خوهد کرد.\n\n توجه: این قابلیت به یک ریکاوری سازگار نیاز دارد در غیر این صورت بروزرسانی‌ها باید به صورت دستی نصب شوند.</string>
   <string name="apply_unable_to_reboot_toast">ناتوان در راه‌اندازی مجدد  به ریکاوری</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">حذف فایل</string>
   <string name="confirm_delete_dialog_title_tv">برای حذف همه‌ی  بروزرسانی‌های دانلود شده از حافظه داخلی کلیک کنید</string>
   <string name="confirm_delete_dialog_message">فایل بروزرسانی انتخاب شده را حذف می‌کنید؟</string>
   <string name="confirm_delete_all_dialog_message">همه‌ی فایل‌های بروزرسانی دانلود شده را حذف می‌کنید؟</string>
@@ -73,4 +77,5 @@
   <string name="type_completing">• در حال تکمیل</string>
   <string name="summary">%1$s\nViperOS %2$s • اندروید %3$s</string>
   <string name="download_button">دانلود</string>
+  <string name="install_button">نصب</string>
 </resources>

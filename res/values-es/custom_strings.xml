@@ -38,7 +38,7 @@
   <!-- Storage permission -->
   <string name="storage_permission_error">Por favor, concede acceso al almacenamiento para continuar</string>
   <!-- Restart recovery -->
-  <string name="restart_recovery">Reiniciar en modo Recuperación</string>
+  <string name="restart_recovery">Reiniciar en modo Recovery</string>
   <string name="restart_recovery_dialog_message">Estás seguro de que quieres reiniciar?</string>
   <string name="restart_recovery_error_message">No se ha podido reiniciar, comprueba el acceso root</string>
   <!-- OTA not configured -->
@@ -47,11 +47,11 @@
   <string name="install_title">Instalar</string>
   <string name="checking_root">Comprobando acceso root...</string>
   <string name="available_reboot_manual_title">Acceso root no encontrado</string>
-  <string name="available_reboot_manual_message">Por favor, reinicia en modo Recuperación y instálalo manualmente. Puedes encontrar la ROM en zip en la carpeta de ViperOTA.</string>
+  <string name="available_reboot_manual_message">Por favor, reinicia en modo Recovery e instálalo manualmente.\n\nPuedes encontrar la ROM en zip en la carpeta de ViperOTA.</string>
   <string name="fab_add_file_title">Añadir archivo</string>
   <string name="fab_remove_all_files_title">Eliminar todos los archivos</string>
   <string name="fab_wipe_title">Opciones de formateo</string>
-  <string name="fab_install_title">Reinicie en modo Recuperación e instálelo</string>
+  <string name="fab_install_title">Reinicie en modo Recovery e instálelo</string>
   <string name="wipe_cache">Vaciar caché</string>
   <string name="wipe_dalvik">Vaciar caché Dalvik</string>
   <string name="wipe_data">Eliminar datos</string>
@@ -62,7 +62,7 @@
   <string name="no_files">No se han añadido archivos. Puedes añadir un archivo pulsando en el botón \'+\'</string>
   <string name="please_wait">Por favor, espere...</string>
   <string name="copy_progress">Copiando %1$s ...</string>
-  <string name="copy_failed">Error al copiar %1$s. \n\nAsegúrate de que el dispositivi tiene sufiente espacio de almacenamiento y que la aplicación dispone de permisos de escritura.</string>
+  <string name="copy_failed">Error al copiar %1$s. \n\nAsegúrate de que el dispositivo tiene suficiente espacio de almacenamiento y que la aplicación dispone de permisos de escritura.</string>
   <string name="install_dialog_message">¿Estás seguro de que deseas continuar? Este proceso funciona en TWRP y en algún recovery CWM (no oficiales). \n\nSe requiere acceso root.</string>
-  <string name="install_write_ors_failed_dialog_message">Error al escribir secuencias de comandos de recuperación, ¿desea reiniciar e instalar manualmente?</string>
+  <string name="install_write_ors_failed_dialog_message">Error al escribir secuencias de comandos del recovery, ¿desea reiniciar e instalar manualmente?</string>
 </resources>
