@@ -1,4 +1,5 @@
-# Viper OTA
+# Zero OTA
+### Rebased on Viper OTA
 ### Based on Lineage/CyanogenMod ota app
 
 ## How to use?
@@ -6,7 +7,7 @@
 ```
 # Essential OTA Config
 PRODUCT_PACKAGES += \
-    ViperOTA
+    ZeroOTA
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ota.build.date=$(shell date +%Y%m%d)
